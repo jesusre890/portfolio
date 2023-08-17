@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='bg-red-700'>
+    <div>
       <p>Soy el header</p>
     </div>
   )
