@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from './components/Header/Header'
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './views/Navbar/Navbar';
+import Header from './views/Header/Header';
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
+    <div className='px-10'>
+      <Navbar />
       <Header/>
     </div>
   )
