@@ -18,7 +18,7 @@ const Navbar = () => {
     <>
       <section className="h-[100px]">
         <div className="py-10 mb-12 flex justify-between">
-          <div>
+          <div className="flex items-center gap-1">
             <nav className="flex w-1/3 justify-start">
               <div className="hidden w-full justify-between md:flex">
                 <Menu />
