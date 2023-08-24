@@ -4,8 +4,8 @@ import './ButtonMenu.css'
 const ButtonMenu = () => {
   return (
     <>
-      <div class="background">
-        <button class="menu__icon">
+      <div className="background">
+        <button className="menu__icon">
           <span></span>
           <span></span>
           <span></span>

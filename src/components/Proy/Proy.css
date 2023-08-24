@@ -1,0 +1,99 @@
+.cardP {
+  padding: 15px;
+  width: 330px;
+  height: 360px;
+  /*min-height: 370px;*/
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(156, 156, 156, 0.2);
+  box-shadow: 5px 5px 10px #d3d3d3, -20px -20px 50px #ffffff;
+  transition: 0.4s;
+}
+
+.cardP:hover {
+  translate: 0 -1px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0 0 10px;
+}
+
+.card-image {
+  min-height: 170px;
+  background-color: #c9c9c9;
+  /*background-image: url(../../assets/foImagen.png);*/
+  background-image: url(../../assets/foImagenDark.png);
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+  background-size: cover;
+  border-radius: 15px;
+  /*box-shadow: inset 1px 1px 4px #c3c3c3, inset -1px -1px 4px #cfcfcf;*/
+}
+
+.card-imageCripto {
+  min-height: 170px;
+  background-color: #c9c9c9;
+  background-image: url(../../assets/foCripto.png);
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+  background-size: cover;
+  border-radius: 15px;
+  /*box-shadow: inset 1px 1px 4px #c3c3c3, inset -1px -1px 4px #cfcfcf;*/
+}
+
+.card-imageCoca {
+  min-height: 170px;
+  background-color: #c9c9c9;
+  background-image: url(../../assets/coca.png);
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+  background-size: cover;
+  border-radius: 15px;
+  filter: brightness(90%)
+  /*box-shadow: inset 1px 1px 4px #c3c3c3, inset -1px -1px 4px #cfcfcf;*/
+}
+
+.card-imagePokemon {
+  min-height: 170px;
+  background-color: #c9c9c9;
+  background-image: url(../../assets/pokemon.png);
+  background-image: url(../../assets/landingPoke.png);
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+  background-size: cover;
+  border-radius: 15px;
+  filter: brightness(60%)
+  /*box-shadow: inset 1px 1px 4px #c3c3c3, inset -1px -1px 4px #cfcfcf;*/
+}
+
+.card-imageCasting {
+  min-height: 170px;
+  background-color: #c9c9c9;
+  background-image: url(../../assets/casting.png);
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+  background-size: cover;
+  border-radius: 15px;
+  filter: brightness(80%)
+  /*box-shadow: inset 1px 1px 4px #c3c3c3, inset -1px -1px 4px #cfcfcf;*/
+}
+
+.card-body {
+  margin: 13px 10px 0 10px;
+  color: rgb(31, 31, 31);
+  font-size: 15px;
+}
+
+.footer {
+  float: right;
+  margin: 5px 0 0 18px;
+  margin-right: 10px;
+  font-size: 13px;
+  color: #636363;
+}
+
+.by-name {
+  font-weight: 700;
+}

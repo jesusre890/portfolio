@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from './views/Navbar/Navbar';
 import Header from './views/Header/Header';
 import About from './views/About/About';
-import Skills from './components/Skills/Skills';
+import Proyectos from './views/Proyectos/Proyectos';
+import Skills from './views/Skills/Skills';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <About />
       <Skills />
+      <Proyectos />
     </div>
   )
 }
