@@ -6,6 +6,7 @@ import {GrFormClose} from "react-icons/gr";
 import DarkLight from "../../components/DarkLight/DarkLight.jsx";
 import DarkLight2 from "../../components/DarkLight2/DarkLight2.jsx";
 import Menu from "./Menu.jsx";
+import ButtonMenu from "../../components/ButtonMenu/ButtonMenu.jsx";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +25,7 @@ const Navbar = () => {
                 <Menu />
               </div>
               <div className="md:hidden">
-                <button onClick={hamburg}>{isOpen ? <GrFormClose/> : <AiOutlineMenu />}</button>
+                <button onClick={hamburg}>{isOpen ? <GrFormClose/> : <ButtonMenu />}</button>
               </div>
             </nav>
             {isOpen && (

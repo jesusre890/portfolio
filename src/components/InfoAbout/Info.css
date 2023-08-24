@@ -1,0 +1,12 @@
+.card2 {
+ width: 150px;
+ min-height: 50px;
+ border-radius: 20px;
+ background: #e0e0e0;
+ box-shadow: 20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+}
+
+.icono{
+    color: rgb(68, 68, 68);
+}
