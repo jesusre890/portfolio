@@ -1,12 +1,14 @@
 .card2 {
- width: 150px;
+ width: 130px;
  min-height: 50px;
  border-radius: 20px;
- background: #e0e0e0;
- box-shadow: 20px 20px 60px #bebebe,
-               -20px -20px 60px #ffffff;
+ background: #ffffff;
+ border: 1px solid rgba(0, 0, 0, 0.1);
+ box-shadow: 5px 5px 10px #e9e9e9,
+               -5px -5px 10px #ffffff;
 }
 
 .icono{
     color: rgb(68, 68, 68);
 }
+

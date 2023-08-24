@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <>
       <div className="py-10 text-center">
-        <h1 className="text-4xl font-semibold pb-2 text-gray-700">Jesús Re</h1>
+        <h1 className="text-4xl font-semibold pb-2 pt-2 text-gray-700">Jesús Re</h1>
         <h3 className=" text-xl text-gray-600">FullStack Web Developer</h3>
         <br />
         <p className="text-xl pb-3 text-gray-600">Bienvenido/a!</p>

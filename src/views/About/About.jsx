@@ -19,7 +19,7 @@ const About = () => {
             orientados solamente al front.
           </p>
           <p className="text-gray-600 max-w-sm mx-auto mt-3 mb-5">
-            En 2023 tomé la decisión de hacer un cambio grande en mi vida y me
+            En 2023 tomé la decisión de hacer un cambio grande y me
             embarqué en el bootcamp de Henry. Adquirí herramientas fundamentales
             que me han preparado para dar mis primeros pasos en el mundo
             laboral.
