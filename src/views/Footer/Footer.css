@@ -1,0 +1,75 @@
+.cardF {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+
+}
+
+/* for all social containers*/
+.socialContainerF {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d74b4b;
+  transition-duration: .3s;
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #ff0101;
+  transition-duration: .3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #414141;
+  transition-duration: .3s;
+}
+
+.socialContainerF:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvgF {
+  width: 20px;
+}
+
+.gitHub{
+    width: 25px;
+    height: 25px;
+}
+
+.socialSvgF path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainerF:hover .socialSvgF {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

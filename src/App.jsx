@@ -4,6 +4,8 @@ import Header from './views/Header/Header';
 import About from './views/About/About';
 import Proyectos from './views/Proyectos/Proyectos';
 import Skills from './views/Skills/Skills';
+import Contacto from './views/Contacto/Contacto';
+import Footer from './views/Footer/Footer';
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <About />
       <Skills />
       <Proyectos />
+      <Contacto />
+      <Footer/>
     </div>
   )
 }
