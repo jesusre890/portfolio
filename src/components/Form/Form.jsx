@@ -71,7 +71,7 @@ const Form=() => {
             </textarea>
           </div>
 
-          <button className="form-submit-btn flex items-center" type="submit">
+          <button className="form-submit-btn flex items-center mx-auto md:mx-0" type="submit">
             Enviar <BsSendCheck className="my-auto" />
           </button>
         </form>

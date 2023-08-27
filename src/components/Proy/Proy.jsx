@@ -21,7 +21,7 @@ import OptionCasting from "./OptionCasting";
 
 const Proy = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col md:flex-wrap md:flex-row md:gap-10 md:justify-center">
       {/*casting app*/}
       <div className="cardP mb-6">
         <div className="card-imageCasting"></div>

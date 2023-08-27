@@ -9,8 +9,8 @@ import "./Info.css";
 
 const Info = () => {
   return (
-    <div className="flex gap-3">
-      <div className="card2 mx-auto my-4 flex justify-center items-center flex-col px-5 py-5">
+    <div className="flex gap-3 md:flex-col">
+      <div className="card2 mx-auto my-4 flex justify-center items-center flex-col px-5 py-5 md:my-0">
         <GrMapLocation />
         <h3 className="font-medium text-gray-700 text-lg">Ubicación</h3>
         <span className="flex flex-row items-center gap-2 text-gray-500 font-medium text-sm">
@@ -19,7 +19,7 @@ const Info = () => {
         </span>
       </div>
 
-      <div className="card2 mx-auto my-4 flex justify-center items-center flex-col px-5 py-5">
+      <div className="card2 mx-auto my-4 flex justify-center items-center flex-col px-5 py-5 md:my-0">
         <BiLogoVisualStudio className="icono" />
         <h3 className="font-medium text-gray-700 text-lg">Proyectos</h3>
         <span className="flex flex-row items-center gap-2 text-gray-500 font-medium text-sm">
@@ -28,7 +28,7 @@ const Info = () => {
         </span>
       </div>
 
-      <div className="card2 mx-auto my-4 flex justify-center items-center flex-col px-5 py-5">
+      <div className="card2 mx-auto my-4 flex justify-center items-center flex-col px-5 py-5 md:my-0">
         <BsHeadset className="icono" />
         <h3 className="font-medium text-gray-700 text-lg">Soporte</h3>
         <span className="flex flex-row items-center gap-2 text-gray-500 font-medium text-sm">

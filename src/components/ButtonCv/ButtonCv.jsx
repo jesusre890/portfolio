@@ -4,7 +4,7 @@ import './ButtonCv.css'
 const ButtonCv = () => {
   return (
     <>
-      <button className="download-button">
+      <button className="download-button md:mt-16">
         <div className="docs">
           <svg
             className="css-i6dzq1"

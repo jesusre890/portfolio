@@ -1,0 +1,17 @@
+.scrollup{
+    position: fixed;
+    right: 2.5rem;
+    bottom: -20%;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.scrollup:hover{
+    background-color: rgb(84, 84, 84);
+}
+
+/*se muestra cuando*/
+
+.show-scroll{
+    bottom: 3rem;
+}

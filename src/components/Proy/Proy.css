@@ -71,12 +71,12 @@
 .card-imageCasting {
   min-height: 170px;
   background-color: #c9c9c9;
-  background-image: url(../../assets/casting.png);
+  background-image: url(../../assets/sinF.png);
   background-repeat: no-repeat;
-  /*background-position: center;*/
-  background-size: cover;
+  background-position: center;
+  background-size:contain;
   border-radius: 15px;
-  filter: brightness(80%)
+  filter: brightness(95%)
   /*box-shadow: inset 1px 1px 4px #c3c3c3, inset -1px -1px 4px #cfcfcf;*/
 }
 

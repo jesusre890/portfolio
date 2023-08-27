@@ -4,33 +4,33 @@ import './Menu.css'
 
 const Menu = () => {
   return (
-    <div className="menuC flex gap-5 bg-white rounded-lg p-2">
+    <div className="menuC flex gap-5 rounded-lg p-2">
       <a
-        href="/"
+        href="#"
         className="flex flex-row items-center text-gray-500 font-medium text-md"
       >
         Home
       </a>
       <a
-        href="/about"
+        href="#about"
         className="flex flex-row items-center text-gray-500 font-medium text-md"
       >
         About
       </a>
       <a
-        href="/proyectos"
+        href="#skills"
         className="flex flex-row items-center text-gray-500 font-medium text-md"
       >
         Skills
       </a>
       <a
-        href="/proyectos"
+        href="#proyectos"
         className="flex flex-row items-center text-gray-500 font-medium text-md"
       >
         Proyectos
       </a>
       <a
-        href="/contacto"
+        href="#contacto"
         className="flex flex-row items-center text-gray-500 font-medium text-md"
       >
         Contacto
