@@ -4,7 +4,7 @@ import "./Skills.css";
 
 const Backend = () => {
   return (
-    <div className="cont m-3 p-6 bg-white">
+    <div className="cont m-3 p-6 bg-white dark:bg-gray-200">
       <h3 className="font-medium text-gray-700 text-lg">Backend developer</h3>
 
       <div className="skills_gral flex justify-evenly m-3 p-3 gap-10">

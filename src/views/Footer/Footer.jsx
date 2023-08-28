@@ -6,10 +6,12 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer className="pie flex items-center justify-center">
+    <footer className="pie flex items-center justify-center pt-10 dark:bg-gray-800">
       <div className="flex flex-col items-center">
-        <h1 className="font-medium text-gray-700 text-2xl mt-7">Jesús Re</h1>
-        <div className='flex gap-5 pt-4'>
+        <h1 className="font-medium text-gray-700 text-2xl mt-7 dark:text-slate-300">
+          Jesús Re
+        </h1>
+        <div className="flex gap-5 pt-4">
           <a
             href="#about"
             className="flex flex-row items-center text-gray-400 font-medium text-sm"
@@ -30,19 +32,19 @@ const Footer = () => {
           </a>
         </div>
         <ul className="flex flex-col items-center">
-          <div className="cardF">
+          <div className="cardF ">
             <a
-              className="socialContainerF containerOne"
+              className="socialContainerF containerOne dark:bg-gray-800 dark:hover:bg-red-500"
               href="mailto:jesusre890@gmail.com"
               target="_blank"
             >
-              <svg viewBox="0 0 16 16" className="socialSvgF instagramSvg">
+              <svg viewBox="0 0 16 16" className="socialSvgF instagramSvg ">
                 <BiLogoGmail />
               </svg>
             </a>
 
             <a
-              className="socialContainerF containerThree"
+              className="socialContainerF containerThree dark:bg-gray-800 dark:hover:bg-cyan-600"
               href="https://www.linkedin.com/in/jesus-re/"
               target="_blank"
             >
@@ -52,17 +54,20 @@ const Footer = () => {
             </a>
 
             <a
-              className="socialContainerF containerFour"
+              className="socialContainerF containerFour dark:bg-gray-800 dark:hover:bg-slate-500"
               href="https://github.com/jesusre890"
               target="_blank"
             >
-              <svg viewBox="1 0 13.5 16" className="socialSvgF whatsappSvg">
+              <svg
+                viewBox="1 0 13.5 16"
+                className="socialSvgF whatsappSvg"
+              >
                 <AiFillGithub className="gitHub" />
               </svg>
             </a>
           </div>
         </ul>
-        <h1 className="flex items-center gap-2 font-medium text-gray-500 text-sm my-5">
+        <h1 className="flex items-center gap-2 font-medium text-gray-500 text-sm my-5 dark:text-slate-400">
           <BiCopyright />
           2023
         </h1>

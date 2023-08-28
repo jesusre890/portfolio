@@ -23,7 +23,7 @@ const Proy = () => {
   return (
     <div className="flex flex-col md:flex-wrap md:flex-row md:gap-10 md:justify-center">
       {/*casting app*/}
-      <div className="cardP mb-6">
+      <div className="cardP mb-6 dark:bg-gray-100">
         <div className="card-imageCasting"></div>
         <p className="card-title font-medium text-gray-700">
           Casting App - Proyecto grupal
@@ -59,7 +59,7 @@ const Proy = () => {
       </div>
 
       {/*pokemon*/}
-      <div className="cardP mb-6">
+      <div className="cardP mb-6 dark:bg-gray-100">
         <div className="card-imagePokemon"></div>
         <p className="card-title font-medium text-gray-700">SPA Pokemon Api</p>
         {/*<p className="card-body font-normal text-gray-700">
@@ -91,7 +91,7 @@ const Proy = () => {
       </div>
 
       {/*cocacola*/}
-      <div className="cardP mb-6">
+      <div className="cardP mb-6 dark:bg-gray-100">
         <div className="card-imageCoca"></div>
         <p className="card-title font-medium text-gray-700">
           Coca-cola Ecommerce
@@ -117,7 +117,7 @@ const Proy = () => {
       </div>
 
       {/*fo.cripto*/}
-      <div className="cardP  mb-6">
+      <div className="cardP  mb-6 dark:bg-gray-100">
         <div className="card-imageCripto"></div>
         <p className="card-title font-medium text-gray-700">Fo - Cripto</p>
         {/*<p className="card-body font-normal text-gray-700">
@@ -140,7 +140,7 @@ const Proy = () => {
       </div>
 
       {/*fo*/}
-      <div className="cardP mb-6">
+      <div className="cardP mb-6 dark:bg-gray-100">
         <div className="card-image"></div>
         <p className="card-title font-medium text-gray-700">Fo - Photography</p>
         {/*<p className="card-body font-normal text-gray-700">

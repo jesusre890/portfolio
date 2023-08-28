@@ -8,14 +8,18 @@ import Form from "../../components/Form/Form";
 
 const Contacto = () => {
   return (
-    <section className="text-center py-16 mb-16" id="contacto">
-      <h2 className="text-3xl font-medium text-gray-700 mb-4">Contacto</h2>
+    <section className="text-center py-16" id="contacto">
+      <h2 className="text-3xl font-medium text-gray-700 mb-4 dark:text-slate-300">
+        Contacto
+      </h2>
       <div className="contenedor md:flex justify-around lg:justify-center lg:gap-32">
         <div className="contacto_escribeme">
-          <h3 className="font-medium text-gray-700 text-lg">Escríbeme</h3>
+          <h3 className="font-medium text-gray-700 text-lg dark:text-slate-300">
+            Escríbeme
+          </h3>
           <div className="flex justify-center md:flex-col">
             {/*Email*/}
-            <div className="info flex flex-col items-center p-3 bg-white m-3">
+            <div className="info flex flex-col items-center p-3 bg-white m-3 dark:bg-gray-200">
               <RiMailSendLine className=" text-2xl text-gray-600" />
 
               <h3 className="font-medium text-gray-700 text-md pt-2">Email</h3>
@@ -30,7 +34,7 @@ const Contacto = () => {
               </a>
             </div>
             {/*Linkedin*/}
-            <div className="info flex flex-col items-center p-3 bg-white m-3">
+            <div className="info flex flex-col items-center p-3 bg-white m-3 dark:bg-gray-200">
               <GrLinkedinOption className=" text-2xl text-gray-600" />
 
               <h3 className="font-medium text-gray-700 text-md pt-2">
@@ -48,7 +52,7 @@ const Contacto = () => {
               </a>
             </div>
             {/*Discord*/}
-            <div className="info flex flex-col items-center p-3 bg-white m-3">
+            <div className="info flex flex-col items-center p-3 bg-white m-3 dark:bg-gray-200">
               <FaDiscord className=" text-2xl text-gray-600" />
 
               <h3 className="font-medium text-gray-700 text-md pt-2">
@@ -68,7 +72,7 @@ const Contacto = () => {
           </div>
         </div>
         <div className="flex flex-col items-center">
-          <h3 className="font-medium text-gray-700 text-lg mt-10 md:mt-0 md:mb-8">
+          <h3 className="font-medium text-gray-700 text-lg mt-10 md:mt-0 md:mb-8 dark:text-slate-300">
             Envíame un mensaje directo
           </h3>
           <Form />

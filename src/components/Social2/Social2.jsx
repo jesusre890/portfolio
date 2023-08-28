@@ -7,7 +7,7 @@ import { BsYoutube } from "react-icons/bs";
 const Social2 = () => {
   return (
     <>
-      <div className="card">
+      <div className="card dark:bg-slate-300">
         <a
           className="socialContainer containerOne"
           href="mailto:jesusre890@gmail.com"

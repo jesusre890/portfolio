@@ -13,13 +13,17 @@ const Header = () => {
     <>
       <div className="flex flex-col md:flex-row md:justify-center items-center md:gap-16">
         <div className=" py-10 text-center">
-          <h1 className="text-4xl font-semibold pb-2 pt-2 text-gray-700">
+          <h1 className="text-4xl font-semibold pb-2 pt-2 text-gray-700 dark:text-slate-300">
             Jesús Re
           </h1>
-          <h3 className=" text-xl text-gray-600">FullStack Web Developer</h3>
+          <h3 className=" text-xl text-gray-600 dark:text-slate-300">
+            FullStack Web Developer
+          </h3>
           <br />
-          <p className="text-xl pb-3 text-gray-600">Bienvenido/a!</p>
-          <p className="text-gray-600 max-w-sm mx-auto md:max-w-md lg:max-w-lg">
+          <p className="text-xl pb-3 text-gray-600 dark:text-slate-300">
+            Bienvenido/a!
+          </p>
+          <p className="text-gray-600 max-w-sm mx-auto md:max-w-md lg:max-w-lg dark:text-slate-300">
             Recién graduado del bootcamp de Henry, descubrí la inmensidad del
             mundo de la programación y su potencial para soluciones infinitas.
             Contáctame por cualquier consulta.

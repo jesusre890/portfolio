@@ -13,7 +13,7 @@ const ScrollUp=() => {
   return (
     <a href='#' className='scrollup text-3xl'>
           {/*<i className='uil uil-arrow-up scrollup_icon'></i>*/}
-          <BsFillArrowUpSquareFill/>
+          <BsFillArrowUpSquareFill className='dark:text-slate-400 dark:hover:bg-black dark:hover:text-slate-600'/>
     </a>
   )
 }

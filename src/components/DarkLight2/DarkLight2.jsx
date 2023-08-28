@@ -1,14 +1,14 @@
 import React from "react";
-import style from './DarkLight2.css'
+import './DarkLight2.css'
 
-const DarkLight2 = () => {
+const DarkLight2=() => {
   return (
-    <>
+    <div className="py-10 mb-5">
       <label className="switch">
         <input type="checkbox" />
         <span className="slider"></span>
       </label>
-    </>
+    </div>
   );
 };
 

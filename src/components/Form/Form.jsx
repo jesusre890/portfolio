@@ -32,7 +32,10 @@ const Form=() => {
       <div className="form-container">
         <form ref={form} onSubmit={sendEmail} className="form">
           <div className="form-group">
-            <label for="name" className="font-medium text-gray-700 text-md">
+            <label
+              htmlFor="name"
+              className="font-medium text-gray-700 text-md dark:text-slate-300"
+            >
               Nombre
             </label>
             <input
@@ -40,11 +43,14 @@ const Form=() => {
               id="name"
               name="name"
               required=""
-              className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm"
+              className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm dark:text-slate-300"
             />
           </div>
           <div class="form-group">
-            <label for="email" className="font-medium text-gray-700 text-md">
+            <label
+              htmlFor="email"
+              className="font-medium text-gray-700 text-md dark:text-slate-300"
+            >
               Email
             </label>
             <input
@@ -52,11 +58,14 @@ const Form=() => {
               id="email"
               name="email"
               required=""
-              className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm"
+              className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm dark:text-slate-300"
             />
           </div>
           <div className="form-group">
-            <label for="textarea" className="font-medium text-gray-700 text-md">
+            <label
+              htmlFor="textarea"
+              className="font-medium text-gray-700 text-md dark:text-slate-300"
+            >
               Escribe tu consulta
             </label>
             <textarea
@@ -65,13 +74,16 @@ const Form=() => {
               rows="10"
               cols="50"
               required=""
-              className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm"
+              className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm dark:text-slate-300"
             >
               {" "}
             </textarea>
           </div>
 
-          <button className="form-submit-btn flex items-center mx-auto md:mx-0" type="submit">
+          <button
+            className="form-submit-btn flex items-center mx-auto md:mx-0 dark:bg-slate-500 dark:text-white"
+            type="submit"
+          >
             Enviar <BsSendCheck className="my-auto" />
           </button>
         </form>
