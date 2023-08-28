@@ -9,7 +9,7 @@ import "./Info.css";
 
 const Info = () => {
   return (
-    <div className="flex gap-3 md:flex-col">
+    <div className="flex gap-2 md:gap-4 md:mb-8 md:flex-col">
       <div
         className="card2 mx-auto my-4 flex justify-center items-center flex-col px-5 py-5 md:my-0 dark:bg-slate-200"
       >

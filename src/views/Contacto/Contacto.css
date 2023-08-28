@@ -26,7 +26,7 @@
   animation-timeline: --image;
   animation-name: show;
 
-  animation-range: entry 25% cover 40%;
+  animation-range: entry 25% cover 25%;
   animation-fill-mode: both;
 }
 

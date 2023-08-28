@@ -6,7 +6,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer className="pie flex items-center justify-center pt-10 dark:bg-gray-800">
+    <footer className="pie flex items-center justify-center pt-10 dark:bg-gray-900">
       <div className="flex flex-col items-center">
         <h1 className="font-medium text-gray-700 text-2xl mt-7 dark:text-slate-300">
           Jesús Re
@@ -69,7 +69,7 @@ const Footer = () => {
         </ul>
         <h1 className="flex items-center gap-2 font-medium text-gray-500 text-sm my-5 dark:text-slate-400">
           <BiCopyright />
-          2023
+          Jesús Re 2023
         </h1>
       </div>
     </footer>

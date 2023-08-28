@@ -14,7 +14,7 @@ const Backend = () => {
             <div>
               <h3 className="font-medium text-gray-700">Node Js</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
-                Basic
+                
               </span>
             </div>
           </div>
@@ -24,7 +24,7 @@ const Backend = () => {
             <div>
               <h3 className="font-medium text-gray-700">PostgreSQL</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
-                Intermedio
+                
               </span>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Backend = () => {
             <div>
               <h3 className="font-medium text-gray-700">Sequelize</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
-                Intermedio
+                
               </span>
             </div>
           </div>
@@ -46,7 +46,7 @@ const Backend = () => {
             <div>
               <h3 className="font-medium text-gray-700">Express</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
-                Intermedio
+                
               </span>
             </div>
           </div>

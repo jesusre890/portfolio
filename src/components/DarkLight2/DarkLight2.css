@@ -56,7 +56,7 @@
 }
 
 .switch input:checked + .slider:before {
-  background-color: yellow;
+  background-color: rgb(217, 217, 217);
   box-shadow: none;
   transform: translateX(1.5em);
   animation: anima 0.3s linear;

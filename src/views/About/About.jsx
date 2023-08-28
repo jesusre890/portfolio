@@ -7,12 +7,14 @@ import './About.css'
 const About = () => {
   return (
     <section className="text-center py-16 mt-24" id="about">
-      <h2 className="sobreMi text-3xl font-medium text-gray-700 dark:text-slate-300">
-        Sobre mi
-      </h2>
-      <p className="introD text-l text-gray-600 dark:text-slate-400">
-        Introducción
-      </p>
+      <div className=" md:ml-32 lg:ml-72">
+        <h2 className="sobreMi text-3xl font-medium text-gray-700 dark:text-slate-300">
+          Sobre mi
+        </h2>
+        <p className="introD text-l text-gray-600 dark:text-slate-400">
+          Introducción
+        </p>
+      </div>
 
       <div className="mx-auto mt-5 md:flex md:justify-center md:items-center md:gap-10 lg:justify-center lg:gap-40">
         <div className="infoS flex flex-col items-center basis-full md:basis-0">

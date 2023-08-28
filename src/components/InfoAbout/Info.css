@@ -1,5 +1,5 @@
 .card2 {
- width: 130px;
+ width: 120px;
  min-height: 50px;
  border-radius: 20px;
  background: #ffffff;
@@ -18,7 +18,7 @@
   animation-timeline: --image;
   animation-name: show;
 
-  animation-range: entry 25% cover 40%;
+  animation-range: entry 25% cover 20%;
   animation-fill-mode: both;
 }
 

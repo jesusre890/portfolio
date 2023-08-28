@@ -14,7 +14,7 @@ const Frontend = () => {
             <div>
               <h3 className="font-medium text-gray-700">React</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
-                Intermedio
+                
               </span>
             </div>
           </div>
@@ -24,7 +24,7 @@ const Frontend = () => {
             <div>
               <h3 className="font-medium text-gray-700">TypeScript</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
-                Basic
+                
               </span>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Frontend = () => {
             <div>
               <h3 className="font-medium text-gray-700">JavaScript</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
-                Intermedio
+                
               </span>
             </div>
           </div>
@@ -46,7 +46,7 @@ const Frontend = () => {
             <div>
               <h3 className="font-medium text-gray-700">Bootstrap</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
-                Intermedio
+                
               </span>
             </div>
           </div>
@@ -56,7 +56,7 @@ const Frontend = () => {
             <div>
               <h3 className="font-medium text-gray-700">Tailwind</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
-                Intermedio
+                
               </span>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Frontend = () => {
             <div>
               <h3 className="font-medium text-gray-700">CSS</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
-                Avanzado
+                
               </span>
             </div>
           </div>

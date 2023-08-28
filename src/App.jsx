@@ -11,6 +11,7 @@ import ScrollUp from "./components/ScrollUp/ScrollUp";
 import DarkLight2 from "./components/DarkLight2/DarkLight2";
 import {FiMoon} from 'react-icons/fi'
 import { CiDark } from "react-icons/ci";
+import DarkLight from "./components/DarkLight/DarkLight";
 
 const App = () => {
   const [darkMode,setDarkMode]=useState(false);
@@ -37,13 +38,19 @@ const App = () => {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className="px-10 bg-slate-50 dark:bg-gray-800">
+      <main className="px-8 bg-slate-50 dark:bg-slate-950">
         <div className="flex flex-row justify-between">
           <Navbar />
-          <CiDark
+          {/*<CiDark
             onClick={() => setDarkMode(!darkMode)}
             className=" mt-9 w-6 h-6 text-slate-700 dark:text-slate-300"
-          />
+          />*/}
+          <div className="py-10 mb-5">
+            <label className="switch">
+              <input type="checkbox" onClick={() => setDarkMode(!darkMode)}/>
+              <span className="slider dark:before:bg-slate-300"></span>
+            </label>
+          </div>
           {/*<DarkLight2 onClick={() => setDarkMode(!darkMode)} />*/}
         </div>
         <Header />
@@ -52,7 +59,7 @@ const App = () => {
         <Proyectos />
         <Contacto />
       </main>
-      <Footer/>
+      <Footer />
       <ScrollUp />
     </div>
   );

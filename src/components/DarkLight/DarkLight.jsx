@@ -3,7 +3,7 @@ import "./DarkLight.css";
 
 const DarkLight = () => {
   return (
-    <div>
+    <div className="mt-10">
       <label className="bb8-toggle">
         <input className="bb8-toggle__checkbox" type="checkbox" />
         <div className="bb8-toggle__container">
