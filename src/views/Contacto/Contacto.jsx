@@ -12,12 +12,12 @@ const Contacto = () => {
       <h2 className="text-3xl font-medium text-gray-700 mb-4 dark:text-slate-300">
         Contacto
       </h2>
-      <div className="contenedor flex flex-col items-center md:flex justify-around lg:justify-center lg:gap-32">
+      <div className="contenedor flex flex-col items-center md:flex justify-around md:flex-row lg:justify-center lg:gap-32">
         <div className="contacto_escribeme">
           <h3 className="font-medium text-gray-700 text-lg dark:text-slate-300">
             
           </h3>
-          <div className="justify-center md:flex-col">
+          <div className="md:flex-col">
             {/*Email*/}
             <a href="mailto:jesusre890@gmail.com">
               <div className="info flex flex-col items-center p-3 bg-white m-3 dark:bg-gray-200">
