@@ -20,17 +20,15 @@ const Navbar = () => {
   return (
     <div className="headerM">
       <div className="py-10 mb-5 flex justify-between">
-        <div className="flex gap-1 absolute">
+        <div className="flex gap-1 absolute bg-slate-50 dark:bg-slate-950">
           <nav className="flex w-1/3 justify-start">
             <div className="hidden w-full justify-between md:flex">
-              <Menu/>
+              <Menu />
             </div>
             <div className="flex items-start md:hidden">
               <button className=" text-gray-500" onClick={hamburg}>
                 {isOpen ? (
-                  <AiOutlineClose
-                    className=" text-gray-600 mr-2 mt-1 dark:text-gray-300"
-                  />
+                  <AiOutlineClose className=" text-gray-600 mr-2 mt-1 dark:text-gray-300" />
                 ) : (
                   <ButtonMenu />
                 )}
