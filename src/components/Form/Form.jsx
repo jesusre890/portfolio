@@ -45,10 +45,10 @@ const Form = () => {
     <>
       <div className="form-container">
         <form ref={form} onSubmit={sendEmail} className="form">
-          <div className="form-group">
+          <div className="form-group md:flex md:items-start">
             <label
               htmlFor="name"
-              className="font-medium text-gray-700 text-md dark:text-slate-300"
+              className="font-medium text-gray-700 text-md dark:text-slate-300 md:ml-2"
             >
               Nombre
             </label>
@@ -61,10 +61,10 @@ const Form = () => {
               className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm dark:text-slate-300"
             />
           </div>
-          <div class="form-group">
+          <div class="form-group  md:flex md:items-start">
             <label
               htmlFor="email"
-              className="font-medium text-gray-700 text-md dark:text-slate-300"
+              className="font-medium text-gray-700 text-md dark:text-slate-300 md:ml-2"
             >
               Email
             </label>
@@ -77,10 +77,10 @@ const Form = () => {
               className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm dark:text-slate-300"
             />
           </div>
-          <div className="form-group">
+          <div className="form-group  md:flex md:items-start">
             <label
               htmlFor="textarea"
-              className="font-medium text-gray-700 text-md dark:text-slate-300"
+              className="font-medium text-gray-700 text-md dark:text-slate-300 ml-2"
             >
               Escribe tu consulta
             </label>
@@ -102,7 +102,7 @@ const Form = () => {
           >
             Enviar <BsSendCheck className="my-auto" onClick={notify} />
           </button>
-      <ToastContainer />
+          <ToastContainer />
         </form>
       </div>
     </>

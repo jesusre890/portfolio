@@ -4,7 +4,7 @@ import './Menu.css'
 
 const Menu = () => {
   return (
-    <div className="menuC flex flex-col gap-5 rounded-lg md:flex-row">
+    <div className="menuC flex flex-col gap-4 rounded-lg md:flex-row">
       {/*<a
         href="#"
         className="acc flex flex-row items-center text-gray-500 font-medium text-md dark:text-slate-300"

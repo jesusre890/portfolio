@@ -83,10 +83,10 @@
   border-color: #525252;
 }
 
-.radio-tile:hover:before {
+/*.radio-tile:hover:before {
   transform: scale(1);
   opacity: 1;
-}
+}*/
 
 .radio-icon svg {
   /*width: 2rem;
