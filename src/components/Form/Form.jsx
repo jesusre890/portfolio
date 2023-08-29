@@ -2,30 +2,44 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Form.css";
 import { BsSendCheck } from "react-icons/bs";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-const Form=() => {
-    const form = useRef();
+const Form = () => {
+  const form = useRef();
 
-    const sendEmail = (e) => {
-      e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-      emailjs
-        .sendForm(
-          "service_p8qawbc",
-          "template_51ayhni",
-          form.current,
-          "yiAjC4F0tt9JZ_lr1"
-        )
-        //.then(
-        //  (result) => {
-        //    console.log(result.text);
-        //  },
-        //  (error) => {
-        //    console.log(error.text);
-        //  }
-        //);
-        e.target.reset()
-    };
+    emailjs.sendForm(
+      "service_p8qawbc",
+      "template_51ayhni",
+      form.current,
+      "yiAjC4F0tt9JZ_lr1"
+    );
+    //.then(
+    //  (result) => {
+    //    console.log(result.text);
+    //  },
+    //  (error) => {
+    //    console.log(error.text);
+    //  }
+    //);
+    e.target.reset();
+  };
+
+  const notify = () => {
+    toast.success("Mensaje enviado correctamente!", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+  };
 
   return (
     <>
@@ -86,9 +100,10 @@ const Form=() => {
             className="form-submit-btn flex items-center mx-auto md:mx-0 dark:bg-slate-500 dark:text-white"
             type="submit"
           >
-            Enviar <BsSendCheck className="my-auto" />
+            Enviar <BsSendCheck className="my-auto" onClick={notify} />
           </button>
         </form>
+        <ToastContainer />
       </div>
     </>
   );
