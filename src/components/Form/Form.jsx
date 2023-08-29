@@ -42,7 +42,8 @@ const Form=() => {
               type="text"
               id="name"
               name="name"
-              required=""
+              placeholder="Nombre"
+              required
               className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm dark:text-slate-300"
             />
           </div>
@@ -57,7 +58,8 @@ const Form=() => {
               type="text"
               id="email"
               name="email"
-              required=""
+              placeholder="Email"
+              required
               className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm dark:text-slate-300"
             />
           </div>
