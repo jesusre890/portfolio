@@ -30,14 +30,14 @@ const Form = () => {
 
   const notify = () => {
     toast.success("Mensaje enviado correctamente!", {
-      position: "top-center",
+      position: "bottom-center",
       autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
-      theme: "dark",
+      theme: "light",
     });
   };
 
@@ -102,8 +102,8 @@ const Form = () => {
           >
             Enviar <BsSendCheck className="my-auto" onClick={notify} />
           </button>
+      <ToastContainer />
         </form>
-        <ToastContainer />
       </div>
     </>
   );
