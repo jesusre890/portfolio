@@ -5,12 +5,12 @@ import './Menu.css'
 const Menu = () => {
   return (
     <div className="menuC flex flex-col gap-5 rounded-lg md:flex-row">
-      <a
+      {/*<a
         href="#"
         className="acc flex flex-row items-center text-gray-500 font-medium text-md dark:text-slate-300"
       >
         Home
-      </a>
+      </a>*/}
       <a
         href="#about"
         className="acc flex flex-row items-center text-gray-500 font-medium text-md dark:text-slate-300"
