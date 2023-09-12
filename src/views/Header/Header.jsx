@@ -24,7 +24,7 @@ const Header = () => {
             Bienvenido/a!
           </p>
           <p className="text-gray-600 max-w-sm mx-auto md:max-w-md lg:max-w-lg dark:text-slate-300">
-            Recién graduado del bootcamp de Henry, descubrí la inmensidad del
+            Graduado del bootcamp de Henry, descubrí la inmensidad del
             mundo de la programación y su potencial para soluciones infinitas.
             Contáctame por cualquier consulta.
           </p>
