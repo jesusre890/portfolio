@@ -1,6 +1,6 @@
 import React from "react";
 import Info from "../../components/InfoAbout/Info";
-import cv from "../../assets/CV Jesús Re FullStack Developer.pdf";
+import cv from "../../assets/CV-JesusRe-FullStack-Developer.pdf";
 import ButtonCv from "../../components/ButtonCv/ButtonCv";
 import './About.css'
 
