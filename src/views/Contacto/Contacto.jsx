@@ -5,6 +5,7 @@ import { GrLinkedinOption } from "react-icons/gr";
 import { FaDiscord } from "react-icons/fa";
 import "./Contacto.css";
 import Form from "../../components/Form/Form";
+import FormHook from "../../components/Form/FormHook";
 
 const Contacto = () => {
   return (
@@ -83,7 +84,7 @@ const Contacto = () => {
           <h3 className="font-medium text-gray-700 text-lg mt-10 md:mt-0 md:mb-5 dark:text-slate-300">
             
           </h3>
-          <Form />
+          <FormHook />
         </div>
       </div>
     </section>
