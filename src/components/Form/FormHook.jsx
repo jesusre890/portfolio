@@ -5,8 +5,18 @@ import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const FormHook = () => {
+  const [captchaValido, setCaptchaValido] = useState(null);
+
+
+  const captcha = useRef(null);
+
+  const onChange=() => {
+    console.log('captcha cambiado');
+  };
+
   const {
     register,
     formState: { errors },
@@ -17,7 +27,7 @@ const FormHook = () => {
   const form = useRef();
 
   const onSubmit = (e) => {
-    //  e.preventDefault();
+
     console.log(e);
 
     emailjs.sendForm(
@@ -28,6 +38,9 @@ const FormHook = () => {
     );
 
     reset();
+
+    notify();
+
   };
 
   const notify = () => {
@@ -126,14 +139,22 @@ const FormHook = () => {
             )}
           </div>
           <div>
+            <ReCAPTCHA
+              sitekey="6LdVnh8pAAAAADqWqo99HchqW2yclbJqB2NwmB8a"
+              onChange={(val) => setCaptchaValido(val)}
+            />
+          </div>
+          <div>
             <button
               className="form-submit-btn flex items-center mx-auto md:mx-0 dark:bg-slate-500 dark:text-white"
               type="submit"
               onClick={notify}
+              disabled={!captchaValido}
             >
               Enviar <BsSendCheck className="my-auto" />
             </button>
           </div>
+          {/*<ToastContainer />*/}
         </form>
       </div>
     </>
