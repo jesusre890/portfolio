@@ -25,11 +25,13 @@ const FormHook = () => {
   } = useForm();
 
   const form = useRef();
-
+  
   const onSubmit = (e) => {
-
+    
     console.log(e);
 
+    notify();
+    
     emailjs.sendForm(
       "service_p8qawbc",
       "template_51ayhni",
@@ -38,8 +40,6 @@ const FormHook = () => {
     );
 
     reset();
-
-    notify();
 
   };
 
@@ -134,7 +134,7 @@ const FormHook = () => {
             />
             {errors.textarea?.type === "required" && (
               <p className="font-medium text-red-500 text-md dark:text-red-500 ml-2">
-                * Falto el mensaje máquina
+                * Falta su consulta
               </p>
             )}
           </div>
@@ -148,13 +148,12 @@ const FormHook = () => {
             <button
               className="form-submit-btn flex items-center mx-auto md:mx-0 dark:bg-slate-500 dark:text-white"
               type="submit"
-              onClick={notify}
               disabled={!captchaValido}
             >
               Enviar <BsSendCheck className="my-auto" />
             </button>
           </div>
-          {/*<ToastContainer />*/}
+          <ToastContainer />
         </form>
       </div>
     </>
