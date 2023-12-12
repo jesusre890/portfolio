@@ -2,7 +2,8 @@ import React from "react";
 import "./Social2.css";
 import { BiLogoGmail } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
-import { BsYoutube } from "react-icons/bs";
+import {BsYoutube} from "react-icons/bs";
+import arbol from '../../assets/arbolDeNavidad.gif'
 
 const Social2 = () => {
   return (
@@ -47,6 +48,9 @@ const Social2 = () => {
             <BsYoutube />
           </svg>{" "}
         </a>
+      </div>
+        <img src={arbol} alt="arbol de navidad" className="arbolito w-24"/>
+      <div>
       </div>
     </>
   );
