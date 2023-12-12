@@ -49,7 +49,7 @@ const Social2 = () => {
           </svg>{" "}
         </a>
       </div>
-        <img src={arbol} alt="arbol de navidad" className="arbolito w-24"/>
+        <img src={arbol} alt="arbol de navidad" className="arbolito w-24 opacity-80"/>
       <div>
       </div>
     </>
