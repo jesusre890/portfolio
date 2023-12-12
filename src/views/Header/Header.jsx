@@ -7,6 +7,7 @@ import style from "./Header.module.css";
 import Social from "../../components/Social/Social";
 import "./Header.css";
 import Social2 from "../../components/Social2/Social2";
+import NombreNavideño from "../../components/NombreNavideño/NombreNavideño";
 
 const Header = () => {
   return (
@@ -24,9 +25,9 @@ const Header = () => {
             Bienvenido/a!
           </p>
           <p className="text-gray-600 max-w-sm mx-auto md:max-w-md lg:max-w-lg dark:text-slate-300">
-            Graduado del bootcamp de Henry, descubrí la inmensidad del
-            mundo de la programación y su potencial para soluciones infinitas.
-            Contáctame por cualquier consulta.
+            Graduado del bootcamp de Henry, descubrí la inmensidad del mundo de
+            la programación y su potencial para soluciones infinitas. Contáctame
+            por cualquier consulta.
           </p>
           <div className="flex justify-center items-center pt-8">
             {/*<Social />*/}

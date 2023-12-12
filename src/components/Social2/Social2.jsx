@@ -2,12 +2,20 @@ import React from "react";
 import "./Social2.css";
 import { BiLogoGmail } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
-import {BsYoutube} from "react-icons/bs";
-import arbol from '../../assets/arbolDeNavidad.gif'
+import { BsYoutube } from "react-icons/bs";
+import arbol from "../../assets/arbolDeNavidad.gif";
+import gorro from "../../assets/gorroNavideño (1).png";
 
 const Social2 = () => {
   return (
     <>
+      <div>
+        <img
+          src={gorro}
+          alt="gorro navideño"
+          className="gorro w-14 opacity-90"
+        />
+      </div>
       <div className="card dark:bg-slate-300">
         <a
           className="socialContainer containerOne"
@@ -41,17 +49,20 @@ const Social2 = () => {
 
         <a
           className="socialContainer containerTwo"
-                  href="https://www.youtube.com/channel/UCO4Hm7vu91DxorRhMNIgoDA"
-                  target="_blank"
+          href="https://www.youtube.com/channel/UCO4Hm7vu91DxorRhMNIgoDA"
+          target="_blank"
         >
           <svg viewBox="0 0 16 16" className="socialSvg twitterSvg">
             <BsYoutube />
           </svg>{" "}
         </a>
       </div>
-        <img src={arbol} alt="arbol de navidad" className="arbolito w-24 opacity-80"/>
-      <div>
-      </div>
+      <img
+        src={arbol}
+        alt="arbol de navidad"
+        className="arbolito w-24 opacity-80"
+      />
+      <div></div>
     </>
   );
 };

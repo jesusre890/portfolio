@@ -44,11 +44,11 @@ const Navidad=() => {
     };
   }, []);
   return (
-    <>
+    <div className="container">
       <div className="main-container" ref={mainContainerRef}>
         <span className="snow"></span>
       </div>
-    </>
+    </div>
   );
 };
 

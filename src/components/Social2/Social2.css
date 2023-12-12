@@ -83,3 +83,9 @@
   margin-bottom: -160px;
   margin-left: 290px;
 }
+
+.gorro {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: -15px;
+}

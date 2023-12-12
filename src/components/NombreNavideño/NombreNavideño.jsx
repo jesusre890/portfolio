@@ -1,18 +1,18 @@
-import React from 'react'
-import './NombreNavideño.css'
+import React from "react";
+import "./NombreNavideño.css";
 
 const NombreNavideño = () => {
   return (
     <div>
-      <button>
-        <div class="overflow">
-          <div class="text-container">Jesús Re</div>
+      <button className="bienvenido">
+        <div className="overflow">
+          <div className="text-container">Bienvenido/a!</div>
           <svg
             id="christmas-tree"
             viewBox="0 0 512 512"
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
-            class="christmas-tree christmas-tree-1"
+            className="christmas-tree christmas-tree-1"
           >
             <path
               d="M285 406.03v88.47a10.004 10.004 0 0 1-10 10h-38a10.004 10.004 0 0 1-10-10v-88.47Z"
@@ -93,7 +93,7 @@ const NombreNavideño = () => {
             viewBox="0 0 512 512"
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
-            class="christmas-tree christmas-tree-2"
+            className="christmas-tree christmas-tree-2"
           >
             <path
               d="M285 406.03v88.47a10.004 10.004 0 0 1-10 10h-38a10.004 10.004 0 0 1-10-10v-88.47Z"
@@ -169,7 +169,7 @@ const NombreNavideño = () => {
               fill="#282828"
             ></path>
           </svg>
-          <div class="cloud-container">
+          <div className="cloud-container">
             <svg
               preserveAspectRatio="xMidYMid meet"
               viewBox="0 0 50.000000 50.000000"
@@ -177,7 +177,7 @@ const NombreNavideño = () => {
               width="20px"
               xmlns="http://www.w3.org/2000/svg"
               version="1.0"
-              class="cloud"
+              className="cloud"
             >
               <g
                 stroke="none"
@@ -200,7 +200,7 @@ const NombreNavideño = () => {
               width="20px"
               xmlns="http://www.w3.org/2000/svg"
               version="1.0"
-              class="cloud"
+              className="cloud"
             >
               <g
                 stroke="none"
@@ -221,7 +221,7 @@ const NombreNavideño = () => {
             width="48px"
             viewBox="0 0 48 48"
             xmlns="http://www.w3.org/2000/svg"
-            class="sun"
+            className="sun"
           >
             <path d="M11 11H37V37H11z" fill="#FF9800"></path>
             <path
@@ -235,18 +235,18 @@ const NombreNavideño = () => {
             ></path>
           </svg>
         </div>
-        <div class="snowflake-container">
+        <div className="snowflake-container">
           <svg
-            xml:space="preserve"
+            xmlSpace="preserve"
             viewBox="0 0 298 298"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
             xmlns="http://www.w3.org/2000/svg"
             id="Capa_1"
             version="1.1"
             width="20px"
             height="20px"
             fill="#87ceeb"
-            class="snowflake"
+            className="snowflake"
           >
             <g>
               <path
@@ -291,16 +291,16 @@ const NombreNavideño = () => {
           </svg>
 
           <svg
-            xml:space="preserve"
+            xmlSpace="preserve"
             viewBox="0 0 298 298"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
             xmlns="http://www.w3.org/2000/svg"
             id="Capa_1"
             version="1.1"
             width="20px"
             height="20px"
             fill="#87ceeb"
-            class="snowflake"
+            className="snowflake"
           >
             <g>
               <path
@@ -345,16 +345,16 @@ const NombreNavideño = () => {
           </svg>
 
           <svg
-            xml:space="preserve"
+            xmlSpace="preserve"
             viewBox="0 0 298 298"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
             xmlns="http://www.w3.org/2000/svg"
             id="Capa_1"
             version="1.1"
             width="20px"
             height="20px"
             fill="#87ceeb"
-            class="snowflake"
+            className="snowflake"
           >
             <g>
               <path
@@ -399,16 +399,16 @@ const NombreNavideño = () => {
           </svg>
 
           <svg
-            xml:space="preserve"
+            xmlSpace="preserve"
             viewBox="0 0 298 298"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
             xmlns="http://www.w3.org/2000/svg"
             id="Capa_1"
             version="1.1"
             width="20px"
             height="20px"
             fill="#87ceeb"
-            class="snowflake"
+            className="snowflake"
           >
             <g>
               <path
@@ -453,16 +453,16 @@ const NombreNavideño = () => {
           </svg>
 
           <svg
-            xml:space="preserve"
+            xmlSpace="preserve"
             viewBox="0 0 298 298"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
             xmlns="http://www.w3.org/2000/svg"
             id="Capa_1"
             version="1.1"
             width="20px"
             height="20px"
             fill="#87ceeb"
-            class="snowflake"
+            className="snowflake"
           >
             <g>
               <path
@@ -511,7 +511,7 @@ const NombreNavideño = () => {
           viewBox="0 0 512 512"
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
-          class="santa"
+          className="santa"
         >
           <path
             d="M430.47 234.67A36.27 36.27 0 01441.1 218c1.16-1 2.36-2 3.5-3 .12-.15.33-.39.64-.71a5.92 5.92 0 00.57-1c2.07-4.68 7.37-7.73 12-9.24l.36-.09C447 174.16 446.59 154 446.59 143.49c0-11.2 7.15-39.42 2.44-52.11s-28.69-35.34-34.5-39S414.42 17.8 365.6 10c-71.19-11.32-130.47 26.3-130.47 26.3 33.12-2.92 108.38 35.85 134.24 58.76s29 90.76 33.1 119 26.95 25 26.95 25a7.64 7.64 0 01.34-.71A16.26 16.26 0 01430.47 234.67zM492.88 504.08a73.76 73.76 0 001.67-10.37c3.21-31.86-8.59-144-8.59-144S474.76 310 456.7 307.47s-44.12-17-44.12-17S358 264.89 266.37 279.21 145.65 300.8 129.13 319.3s-64 79.13-71.37 103.09c-5.63 18.22-13.81 61.85-17.4 81.69z"
@@ -632,6 +632,6 @@ const NombreNavideño = () => {
       </button>
     </div>
   );
-}
+};
 
-export default NombreNavideño
+export default NombreNavideño;
