@@ -16,7 +16,7 @@ const Footer = () => {
             href="#about"
             className="flex flex-row items-center text-gray-400 font-medium text-sm"
           >
-            About
+            Perfil
           </a>
           <a
             href="#skills"
@@ -29,6 +29,12 @@ const Footer = () => {
             className="flex flex-row items-center text-gray-400 font-medium text-sm"
           >
             Proyectos
+          </a>
+          <a
+            href="#journey"
+            className="flex flex-row items-center text-gray-400 font-medium text-sm"
+          >
+            Viaje
           </a>
         </div>
         <ul className="flex flex-col items-center">

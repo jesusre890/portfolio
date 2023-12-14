@@ -15,7 +15,7 @@ const Menu = () => {
         href="#about"
         className="acc flex flex-row items-center text-gray-500 font-medium text-md dark:text-slate-300"
       >
-        About
+        Perfil
       </a>
       <a
         href="#skills"
@@ -28,6 +28,12 @@ const Menu = () => {
         className="acc flex flex-row items-center text-gray-500 font-medium text-md dark:text-slate-300"
       >
         Proyectos
+      </a>
+      <a
+        href="#journey"
+        className="acc flex flex-row items-center text-gray-500 font-medium text-md dark:text-slate-300"
+      >
+        Viaje
       </a>
       <a
         href="#contacto"

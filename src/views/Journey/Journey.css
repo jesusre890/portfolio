@@ -1,0 +1,243 @@
+.container {
+  max-width: 768px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+}
+
+/*botones*/
+.viaje__botones {
+  /*--btn-default-bg: rgb(41, 41, 41);*/
+  /*--btn-padding: 15px 20px;*/
+  /*--btn-hover-bg: rgb(231, 231, 231);*/
+  --btn-transition: .3s;
+  --btn-letter-spacing: .1rem;
+  --btn-animation-duration: 1.2s;
+  /*--btn-shadow-color: rgba(0, 0, 0, 0.137);*/
+  /*--btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);*/
+  /*--hover-btn-color: #535353;*/
+  /*--default-btn-color: #fff;*/
+  /*--font-size: 16px;*/
+  /* 👆 this field should not be empty */
+  /*--font-weight: 600;*/
+  /*--font-family: Menlo,Roboto Mono,monospace;*/
+  /* 👆 this field should not be empty */
+}
+
+/* button settings 👆 */
+
+.viaje__botones {
+  box-sizing: border-box;
+  /*padding: var(--btn-padding);*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*color: var(--default-btn-color);*/
+  /*font: var(--font-weight) var(--font-size) var(--font-family);*/
+  /*background: rgb(231, 231, 231);*/
+  border: none;
+  cursor: pointer;
+  transition: var(--btn-transition);
+  overflow: hidden;
+  /*box-shadow: var(--btn-shadow);*/
+}
+
+.viaje__botones span {
+  /*letter-spacing: var(--btn-letter-spacing);*/
+  transition: var(--btn-transition);
+  box-sizing: border-box;
+  position: relative;
+  /*background: rgb(231, 231, 231);*/
+}
+
+.viaje__botones span::before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  background: inherit;
+}
+
+.viaje__botones:hover span, .viaje__botones:focus span {
+  color: #666666;
+}
+
+.viaje__botones:hover span::before, .viaje__botones:focus span::before {
+  animation: chitchat linear both var(--btn-animation-duration);
+}
+
+@keyframes chitchat {
+  0% {
+    content: "#";
+  }
+
+  5% {
+    content: ".";
+  }
+
+  10% {
+    content: "^{";
+  }
+
+  15% {
+    content: "-!";
+  }
+
+  20% {
+    content: "#$_";
+  }
+
+  25% {
+    content: "№:0";
+  }
+
+  30% {
+    content: "#{+.";
+  }
+
+  35% {
+    content: "@}-?";
+  }
+
+  40% {
+    content: "?{4@%";
+  }
+
+  45% {
+    content: "=.,^!";
+  }
+
+  50% {
+    content: "?2@%";
+  }
+
+  55% {
+    content: "\;1}]";
+  }
+
+  60% {
+    content: "?{%:%";
+    right: 0;
+  }
+
+  65% {
+    content: "|{f[4";
+    right: 0;
+  }
+
+  70% {
+    content: "{4%0%";
+    right: 0;
+  }
+
+  75% {
+    content: "'1_0<";
+    right: 0;
+  }
+
+  80% {
+    content: "{0%";
+    right: 0;
+  }
+
+  85% {
+    content: "]>'";
+    right: 0;
+  }
+
+  90% {
+    content: "4";
+    right: 0;
+  }
+
+  95% {
+    content: "2";
+    right: 0;
+  }
+
+  100% {
+    content: "";
+    right: 0;
+  }
+}
+
+.viaje__botones {
+  color: rgb(136, 135, 135);
+  font-size: large;
+}
+
+.viaje__active {
+  color: rgb(66, 66, 66);
+  font-size: x-large ;
+}
+
+.secciones {
+  display: grid;
+  grid-template-columns: 0.5fr;
+  justify-content: center;
+}
+
+.estudios {
+  display: none;
+}
+
+.experiencia {
+  display: none;
+}
+
+.viaje__contenido-active.estudios {
+  display: block;
+}
+
+.viaje__contenido-active.experiencia {
+  display: block;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+  height: 120px;
+}
+
+.titulo {
+  font-size: large;
+  margin-bottom: 5px;
+  color: rgb(36, 36, 36);
+}
+
+.instituto {
+  display: inline-block;
+  font-size: small;
+  margin-bottom: 10px;
+  color: rgb(129, 129, 129);
+}
+
+.calendario{
+
+  font-size: small;
+  gap: 5px;
+  color: rgb(129, 129, 129);
+}
+
+.circulo {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 50%;
+}
+
+.linea {
+  display: block;
+  width: 1%;
+  height: 100%;
+  background-color: rgb(163, 163, 163);
+  transform: translate(6px, -7px);
+}
+
+/*.contenidoData {
+  background-color: red;
+  height: fit-content;
+}*/

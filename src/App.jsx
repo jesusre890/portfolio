@@ -13,6 +13,7 @@ import {FiMoon} from 'react-icons/fi'
 import { CiDark } from "react-icons/ci";
 import DarkLight from "./components/DarkLight/DarkLight";
 import Navidad from "./components/Navidad/Navidad";
+import Journey from "./views/Journey/Journey";
 
 const App = () => {
   const [darkMode,setDarkMode]=useState(false);
@@ -59,6 +60,7 @@ const App = () => {
         <About />
         <Skills />
         <Proyectos />
+        <Journey />
         <Contacto />
       </main>
       <Footer />
