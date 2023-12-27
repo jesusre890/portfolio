@@ -51,15 +51,12 @@ const Backend = () => {
             </div>
           </div>
 
-          {/*<div className="skills_data flex mb-3">
+          <div className="skills_data flex mb-3">
             <AiFillCheckCircle className="mt-1 mr-2" />
             <div>
-              <h3 className="font-medium text-gray-700">Tailwind</h3>
-              <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
-                Intermedio
-              </span>
+              <h3 className="font-medium text-gray-700">Docker</h3>
             </div>
-          </div>*/}
+          </div>
 
           {/*<div className="skills_data flex">
             <AiFillCheckCircle className="mt-1 mr-2" />
