@@ -1,16 +1,14 @@
-import React from 'react'
+import React from "react";
 import { BiLogoGmail } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
 import { BiCopyright } from "react-icons/bi";
-import './Footer.css'
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer className="pie flex items-center justify-center pt-10 dark:bg-gray-900">
       <div className="flex flex-col items-center">
-        <h1 className="font-medium text-gray-700 text-2xl mt-7 dark:text-slate-300">
-          
-        </h1>
+        <h1 className="font-medium text-gray-700 text-2xl mt-7 dark:text-slate-300"></h1>
         <div className="flex gap-5 pt-4">
           <a
             href="#about"
@@ -64,10 +62,7 @@ const Footer = () => {
               href="https://github.com/jesusre890"
               target="_blank"
             >
-              <svg
-                viewBox="1 0 13.5 16"
-                className="socialSvgF whatsappSvg"
-              >
+              <svg viewBox="1 0 13.5 16" className="socialSvgF whatsappSvg">
                 <AiFillGithub className="gitHub" />
               </svg>
             </a>
@@ -75,11 +70,11 @@ const Footer = () => {
         </ul>
         <h1 className="flex items-center gap-2 font-medium text-gray-500 text-sm my-5 dark:text-slate-400">
           <BiCopyright />
-          Jesús Re 2023
+          <div className=" -mt-1">Jesús Re 2024</div>
         </h1>
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;
