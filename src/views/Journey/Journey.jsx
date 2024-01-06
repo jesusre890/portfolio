@@ -127,6 +127,25 @@ const Journey = () => {
             })}
           >
             <div className="data mb-12 md:mb-0">
+              <div></div>
+
+              <div>
+                <span className="circulo"></span>
+                <span className="linea"></span>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <h3 className="titulo font-medium dark:text-slate-300">
+                  Desarrollador FullStack
+                </h3>
+                <span className="instituto">Trayector - Remoto</span>
+                <div className="calendario  flex items-center">
+                  <MdCalendarMonth /> 1/2024 - Presente
+                </div>
+              </div>
+            </div>
+
+            <div className="data mb-12 md:mb-0">
               <div className="flex flex-col items-center">
                 <h3 className="titulo font-medium dark:text-slate-300">
                   Desarrollador FullStack
