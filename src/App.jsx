@@ -58,9 +58,9 @@ const App = () => {
         </div>
         <Header />
         <About />
-        <Skills />
-        <Proyectos />
         <Journey />
+        <Proyectos />
+        <Skills />
         <Contacto />
       </main>
       <Footer />

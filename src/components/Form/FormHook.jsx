@@ -138,7 +138,7 @@ const FormHook = () => {
               </p>
             )}
           </div>
-          <div>
+          <div className="flex justify-center md:justify-start">
             <ReCAPTCHA
               sitekey="6LdVnh8pAAAAADqWqo99HchqW2yclbJqB2NwmB8a"
               onChange={(val) => setCaptchaValido(val)}
