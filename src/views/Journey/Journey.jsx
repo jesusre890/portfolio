@@ -148,7 +148,7 @@ const Journey = () => {
             <div className="data mb-12 md:mb-0">
               <div className="flex flex-col items-center">
                 <h3 className="titulo font-medium dark:text-slate-300">
-                  Desarrollador FullStack
+                  Desarrollador Frontend
                 </h3>
                 <span className="instituto">Awaq ONG - Remoto</span>
                 <div className="calendario flex items-center">
