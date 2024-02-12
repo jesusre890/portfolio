@@ -40,7 +40,7 @@ const App = () => {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className="px-8 bg-slate-50 dark:bg-slate-950">
+      <main className="px-8 bg-slate-50 dark:bg-black">
         {/*<Navidad />*/}
         <div className="flex flex-row justify-between">
           <Navbar />
