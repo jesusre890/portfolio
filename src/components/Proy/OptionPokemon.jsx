@@ -18,7 +18,7 @@ const OptionPokemon = () => {
             </span>
           </a>
         </label>
-        <label>
+        {/*<label>
           <input checked="" class="radio-input" type="radio" name="engine" />
           <a href="">
             <span class="radio-tile">
@@ -28,7 +28,7 @@ const OptionPokemon = () => {
               <span class="radio-label">Deploy</span>
             </span>
           </a>
-        </label>
+        </label>*/}
       </div>
     </>
   );

@@ -5,7 +5,7 @@ import './Skills.css'
 const Frontend = () => {
   return (
     <div className="cont m-3 p-6 bg-white dark:bg-gray-200">
-      <h3 className="font-medium text-gray-700 text-lg">Frontend developer</h3>
+      <h3 className="font-medium text-gray-700 text-lg">Frontend + Lenguajes</h3>
 
       <div className="skills_gral flex justify-evenly m-3 p-3 gap-10">
         <div className="skills_group">
@@ -44,7 +44,7 @@ const Frontend = () => {
           <div className="skills_data flex mb-3">
             <AiFillCheckCircle className="mt-1 mr-2" />
             <div>
-              <h3 className="font-medium text-gray-700">Bootstrap</h3>
+              <h3 className="font-medium text-gray-700">TanStack Query</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
                 
               </span>
@@ -64,7 +64,7 @@ const Frontend = () => {
           <div className="skills_data flex">
             <AiFillCheckCircle className="mt-1 mr-2" />
             <div>
-              <h3 className="font-medium text-gray-700">Material-UI</h3>
+              <h3 className="font-medium text-gray-700">Bootstrap</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
                 
               </span>

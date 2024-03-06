@@ -21,7 +21,7 @@ const OptionCoca = () => {
             </span>
           </a>
         </label>
-        <label>
+        {/*<label>
           <input checked="" class="radio-input" type="radio" name="engine" />
           <a href="https://coca-cola-proy.netlify.app/" target="_blank">
             <span class="radio-tile">
@@ -31,7 +31,7 @@ const OptionCoca = () => {
               <span class="radio-label">Deploy</span>
             </span>
           </a>
-        </label>
+        </label>*/}
       </div>
     </>
   );

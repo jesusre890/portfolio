@@ -5,7 +5,7 @@ import "./Skills.css";
 const Backend = () => {
   return (
     <div className="cont m-3 p-6 bg-white dark:bg-gray-200">
-      <h3 className="font-medium text-gray-700 text-lg">Backend developer</h3>
+      <h3 className="font-medium text-gray-700 text-lg">Backend + Base de datos</h3>
 
       <div className="skills_gral flex justify-evenly m-3 p-3 gap-10">
         <div className="skills_group">
@@ -55,6 +55,13 @@ const Backend = () => {
             <AiFillCheckCircle className="mt-1 mr-2" />
             <div>
               <h3 className="font-medium text-gray-700">Docker</h3>
+            </div>
+          </div>
+
+          <div className="skills_data flex mb-3">
+            <AiFillCheckCircle className="mt-1 mr-2" />
+            <div>
+              <h3 className="font-medium text-gray-700">MongoDB</h3>
             </div>
           </div>
 

@@ -14,6 +14,7 @@ import ScrollUp from "./components/ScrollUp/ScrollUp";
 //import DarkLight from "./components/DarkLight/DarkLight";
 //import Navidad from "./components/Navidad/Navidad";
 import Journey from "./views/Journey/Journey";
+import {NewNavbar} from "./views/Navbar/NewNavbar";
 
 const App = () => {
   const [darkMode,setDarkMode]=useState(false);
@@ -39,16 +40,17 @@ const App = () => {
   //}
 
   return (
-    <div className={darkMode ? "dark" : ""}>
-      <main className="px-8 bg-slate-50 dark:bg-black">
+    <div className={darkMode ? "dark" : ""} >
+      <main className="px-5 bg-slate-50 dark:bg-black">
         {/*<Navidad />*/}
-        <div className="flex flex-row justify-between">
-          <Navbar />
+        <div className="flex flex-row justify-between items-center pt-6">
+          {/*<Navbar />*/}
+          <NewNavbar/>
           {/*<CiDark
             onClick={() => setDarkMode(!darkMode)}
             className=" mt-9 w-6 h-6 text-slate-700 dark:text-slate-300"
           />*/}
-          <div className="py-10 mb-5">
+          <div className="mb-5">
             <label className="switch">
               <input type="checkbox" onClick={() => setDarkMode(!darkMode)} />
               <span className="slider dark:before:bg-slate-300"></span>
