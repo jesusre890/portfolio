@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import "./Proy.css";
 import { ImHtmlFive } from "react-icons/im";
 import { SiSass } from "react-icons/si";

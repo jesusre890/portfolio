@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import "./Options.css";
 import { AiFillGithub } from "react-icons/ai";
 import { BsWindowFullscreen } from "react-icons/bs";
@@ -9,7 +9,7 @@ const OptionCasting = () => {
       <div className="radio-inputs">
         <label>
           <input className="radio-input" type="radio" name="engine" />
-          <a href="https://github.com/Equipo-PF-10/Casting-app" target="_blank">
+          <a href="https://github.com/Equipo-PF-10/Casting-app" target="_blank" rel="noreferrer">
             <span className="radio-tile">
               <span className="radio-icon">
                 <AiFillGithub />
@@ -19,16 +19,16 @@ const OptionCasting = () => {
           </a>
         </label>
         <label>
-          <input checked="" class="radio-input" type="radio" name="engine" />
+          <input checked="" className="radio-input" type="radio" name="engine" />
           <a
             href="https://deploy-sprint-2-frontend.onrender.com/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
-            <span class="radio-tile">
-              <span class="radio-icon2">
+            <span className="radio-tile">
+              <span className="radio-icon2">
                 <BsWindowFullscreen />
               </span>
-              <span class="radio-label">Deploy</span>
+              <span className="radio-label">Deploy</span>
             </span>
           </a>
         </label>

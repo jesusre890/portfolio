@@ -11,11 +11,11 @@ const ScrollUp=() => {
         else scrollUp.classList.remove("show-scroll")
     })
   return (
-    <a href='#' className='scrollup text-3xl'>
-          {/*<i className='uil uil-arrow-up scrollup_icon'></i>*/}
-          <BsFillArrowUpSquareFill className='dark:text-slate-400 dark:hover:bg-black dark:hover:text-slate-600'/>
+    <a href="#" className="scrollup text-3xl">
+      {/*<i className='uil uil-arrow-up scrollup_icon'></i>*/}
+      <BsFillArrowUpSquareFill className="dark:text-blue-gray-100 dark:hover:bg-black dark:hover:text-slate-600" />
     </a>
-  )
+  );
 }
 
 export default ScrollUp

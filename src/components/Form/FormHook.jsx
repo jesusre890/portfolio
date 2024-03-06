@@ -63,7 +63,7 @@ const FormHook = () => {
           <div className="form-group md:flex md:items-start">
             <label
               htmlFor="name"
-              className="font-medium text-gray-700 text-md dark:text-slate-300 md:ml-2"
+              className="font-medium text-gray-700 text-md dark:text-blue-gray-100 md:ml-2"
             >
               Nombre
             </label>
@@ -74,7 +74,7 @@ const FormHook = () => {
               })}
               type="text"
               placeholder="Nombre"
-              className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm dark:text-slate-300"
+              className="flex flex-row items-center gap-2 text-gray-900 font-small text-sm dark:text-blue-gray-100"
             />
             {errors.nombre?.type === "required" && (
               <p className="font-medium text-red-500 text-md dark:text-red-500 ml-2">
@@ -90,7 +90,7 @@ const FormHook = () => {
           <div className="form-group  md:flex md:items-start">
             <label
               htmlFor="email"
-              className="font-medium text-gray-700 text-md dark:text-slate-300 md:ml-2"
+              className="font-medium text-gray-700 text-md dark:text-blue-gray-100 md:ml-2"
             >
               Email
             </label>
@@ -102,7 +102,7 @@ const FormHook = () => {
               })}
               type="text"
               placeholder="Email"
-              className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm dark:text-slate-300"
+              className="flex flex-row items-center gap-2 text-gray-500 font-small text-sm dark:text-blue-gray-100"
             />
             {errors.email?.type === "required" && (
               <p className="font-medium text-red-500 text-md dark:text-red-500 ml-2">
@@ -118,7 +118,7 @@ const FormHook = () => {
           <div className="form-group  md:flex md:items-start">
             <label
               htmlFor="textarea"
-              className="font-medium text-gray-700 text-md dark:text-slate-300 ml-2"
+              className="font-medium text-gray-700 text-md dark:text-blue-gray-100 ml-2"
             >
               Escribe tu consulta
             </label>

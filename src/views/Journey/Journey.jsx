@@ -13,7 +13,7 @@ const Journey = () => {
       className="text-center py-16 flex flex-col items-center"
       id="journey"
     >
-      <h2 className="text-3xl font-medium text-gray-700 mb-4 dark:text-slate-300">
+      <h2 className="text-3xl font-medium text-gray-700 mb-4 dark:text-blue-gray-100">
         Viaje Personal
       </h2>
 
@@ -22,7 +22,7 @@ const Journey = () => {
           <div
             className={`viaje__botones ${
               active === "estudios" ? "viaje__active" : ""
-            } gap-2 flex items-center font-medium dark:text-slate-300`}
+            } gap-2 flex items-center font-medium dark:text-blue-gray-100`}
             onClick={() => setActive("estudios")}
           >
             <GiGraduateCap className="bg-slate-50 dark:bg-slate-950" />
@@ -33,7 +33,7 @@ const Journey = () => {
           <div
             className={`viaje__botones ${
               active === "experiencia" ? "viaje__active" : ""
-            } gap-2 flex items-center font-medium dark:text-slate-300`}
+            } gap-2 flex items-center font-medium dark:text-blue-gray-100`}
             onClick={() => setActive("experiencia")}
           >
             <MdWorkOutline className="bg-slate-50 dark:bg-slate-950" />
@@ -51,7 +51,7 @@ const Journey = () => {
           >
             <div className="data mb-8 md:mb-0">
               <div className="contenidoData flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-slate-300">
+                <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Desarrollador FullStack
                 </h3>
                 <span className="instituto">Henry Bootcamp</span>
@@ -74,7 +74,7 @@ const Journey = () => {
               </div>
 
               <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-slate-300">
+                <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Desarrollador Frontend React
                 </h3>
                 <span className="instituto">Coderhouse</span>
@@ -86,7 +86,7 @@ const Journey = () => {
 
             <div className="data mb-8 md:mb-0">
               <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-slate-300">
+                <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Desarrollador Web Frontend
                 </h3>
                 <span className="instituto">Crehana</span>
@@ -108,7 +108,7 @@ const Journey = () => {
                 <span className="linea"></span>
               </div>
               <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-slate-300">
+                <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Arquitecto
                 </h3>
                 <span className="instituto">
@@ -135,7 +135,7 @@ const Journey = () => {
               </div>
 
               <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-slate-300">
+                <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Desarrollador FullStack
                 </h3>
                 <span className="instituto">Trayector - Remoto</span>
@@ -147,7 +147,7 @@ const Journey = () => {
 
             <div className="data mb-12 md:mb-0">
               <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-slate-300">
+                <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Desarrollador Frontend
                 </h3>
                 <span className="instituto">Awaq ONG - Remoto</span>
@@ -170,7 +170,7 @@ const Journey = () => {
               </div>
 
               <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-slate-300">
+                <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Desarrollador FullStack
                 </h3>
                 <span className="instituto">Andromeda - Pasantía</span>
@@ -182,7 +182,7 @@ const Journey = () => {
 
             <div className="data mb-8 md:mb-0">
               <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-slate-300">
+                <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Arquitecto
                 </h3>
                 <span className="instituto">Rinaldi Construcciones</span>
@@ -204,7 +204,7 @@ const Journey = () => {
                 <span className="linea"></span>
               </div>
               <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-slate-300">
+                <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Arquitecto
                 </h3>
                 <span className="instituto">On Construcciones</span>
