@@ -94,7 +94,7 @@ export function NewNavbar() {
   }, []);
 
   return (
-    <Navbar className=" max-w-screen-xl shadow-none -mt-3 dark:bg-black dark:border-none">
+    <Navbar className=" max-w-screen-xl shadow-none -ml-5 dark:bg-black dark:border-none">
       <div className="flex items-center justify-between text-blue-gray-900 dark:text-blue-gray-100">
         <div className="hidden lg:block">
           <NavList />
