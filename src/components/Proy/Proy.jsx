@@ -22,6 +22,42 @@ import OptionCasting from "./OptionCasting";
 const Proy = () => {
   return (
     <div className="flex flex-col md:flex-wrap md:flex-row md:gap-10 md:justify-center">
+      {/*Awaq*/}
+      <div className="cardP mb-6 dark:bg-gray-100">
+        <div className="card-imageCasting"></div>
+        <p className="card-title font-medium text-gray-700">
+          Awaq ONG - Pasantía
+        </p>
+        {/*<p className="card-body font-normal text-gray-700">
+          Conversor de criptomonedas a partir del valor deseado. Opción de
+          registro.
+        </p>*/}
+        <div className="flex justify-evenly items-center m-4 gap-4">
+          <div>
+            <div className="flex justify-center gap-2 items-center">
+              <FaReact className=" text-2xl text-gray-600" />
+              <SiRedux className=" text-xl text-gray-600" />
+              <ImCss3 className=" text-xl text-gray-600" />
+              <DiJavascript1 className=" text-3xl text-gray-600" />
+              <FaBootstrap className=" text-3xl text-gray-600" />
+            </div>
+            <div className="flex justify-center gap-3 items-center">
+              <GrNode className=" text-xl text-gray-600" />
+              <SiExpress className=" text-3xl text-gray-600" />
+              <SiSequelize className=" text-xl text-gray-600" />
+              <SiPostgresql className=" text-xl text-gray-600" />
+              <BsDatabaseFillCheck className=" text-xl text-gray-600" />
+            </div>
+          </div>
+          <div>
+            <OptionCasting />
+          </div>
+        </div>
+        <p className="footer">
+          <span className="by-name">Agosto 2023</span>
+        </p>
+      </div>
+
       {/*casting app*/}
       <div className="cardP mb-6 dark:bg-gray-100">
         <div className="card-imageCasting"></div>

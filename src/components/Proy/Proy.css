@@ -79,6 +79,17 @@
   filter: brightness(95%)
   /*box-shadow: inset 1px 1px 4px #c3c3c3, inset -1px -1px 4px #cfcfcf;*/
 }
+.card-imageAwaq {
+  min-height: 170px;
+  background-color: #f3f2f2;
+  background-image: url(../../assets/awaq.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  border-radius: 15px;
+  filter: brightness(95%)
+  /*box-shadow: inset 1px 1px 4px #c3c3c3, inset -1px -1px 4px #cfcfcf;*/
+}
 
 .card-body {
   margin: 13px 10px 0 10px;

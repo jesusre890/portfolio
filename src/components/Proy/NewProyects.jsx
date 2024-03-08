@@ -12,6 +12,8 @@ import { SiRedux } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { BsDatabaseFillCheck } from "react-icons/bs";
+import { BiLogoTypescript } from "react-icons/bi";
+import { VscAzure } from "react-icons/vsc";
 import Options from "./Options";
 import OptionCripto from "./OptionCripto";
 import OptionCoca from "./OptionCoca";
@@ -22,8 +24,9 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import {EffectCoverflow,Pagination,Navigation} from "swiper/modules";
-import './NewProyect.css'
+import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
+import "./NewProyect.css";
+import OptionAwaq from "./OptionAwaq";
 
 const NewProyects = () => {
   return (
@@ -49,6 +52,42 @@ const NewProyects = () => {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
+        <SwiperSlide>
+          {/*Awaq*/}
+          <div className="cardP mb-6 dark:bg-gray-100">
+            <div className="card-imageAwaq"></div>
+            <p className="card-title font-medium text-gray-700">
+              Awaq ONG - Pasantía
+            </p>
+            {/*<p className="card-body font-normal text-gray-700">
+          Conversor de criptomonedas a partir del valor deseado. Opción de
+          registro.
+        </p>*/}
+            <div className="flex justify-evenly items-center m-4 gap-4">
+              <div>
+                <div className="flex justify-center gap-2 items-center">
+                  <FaReact className=" text-2xl text-gray-600" />
+                  <SiTailwindcss className=" text-xl text-gray-600" />
+                  <ImCss3 className=" text-xl text-gray-600" />
+                  <BiLogoTypescript className=" text-3xl text-gray-600" />
+                </div>
+                <div className="flex justify-center gap-3 items-center">
+                  <GrNode className=" text-xl text-gray-600" />
+                  <SiExpress className=" text-3xl text-gray-600" />
+
+                  <VscAzure className=" text-xl text-gray-600" />
+                  <BsDatabaseFillCheck className=" text-xl text-gray-600" />
+                </div>
+              </div>
+              <div>
+                <OptionAwaq />
+              </div>
+            </div>
+            <p className="footer">
+              <span className="by-name">Febrero 2024</span>
+            </p>
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
           {/*casting app*/}
           <div className="cardP mb-6 dark:bg-gray-100">
