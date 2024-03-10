@@ -127,7 +127,7 @@ const Journey = () => {
               "viaje__contenido-active": active === "experiencia",
             })}
           >
-            <div className="data mb-12 md:mb-0">
+            <div className="data mb-20 md:mb-0">
               <div className="flex flex-col items-center">
                 <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Desarrollador Frontend
@@ -135,10 +135,10 @@ const Journey = () => {
                 <span className="instituto">Hilda - Remoto</span>
                 <div className="calendario flex items-center flex-col">
                   <div className="flex items-center gap-3">
-                    <MdCalendarMonth /> 3/2024 - Presente
+                    <MdCalendarMonth className=" text-xl" /> 3/2024 - Presente
                   </div>
                   <div className="flex items-center gap-3">
-                    <CiMapPin /> Buenos Aires, Argentina
+                    <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
                   </div>
                 </div>
               </div>
@@ -148,7 +148,7 @@ const Journey = () => {
               </div>
             </div>
 
-            <div className="data mb-12 md:mb-0">
+            <div className="data mb-20 md:mb-0">
               <div></div>
 
               <div>
@@ -163,16 +163,16 @@ const Journey = () => {
                 <span className="instituto">Trayector - Remoto</span>
                 <div className="calendario  flex items-center flex-col">
                   <div className="flex items-center gap-3">
-                    <MdCalendarMonth /> 1/2024 - 3/2024
+                    <MdCalendarMonth className=" text-xl" /> 1/2024 - 3/2024
                   </div>
                   <div className="flex items-center gap-3">
-                    <CiMapPin /> Buenos Aires, Argentina
+                    <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="data mb-12 md:mb-0">
+            <div className="data mb-24 md:mb-0">
               <div className="flex flex-col items-center">
                 <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Desarrollador Frontend
@@ -180,10 +180,10 @@ const Journey = () => {
                 <span className="instituto">Awaq ONG - Remoto</span>
                 <div className="calendario flex items-center flex-col">
                   <div className="flex items-center gap-3">
-                    <MdCalendarMonth /> 11/2023 - 2/2024
+                    <MdCalendarMonth className=" text-xl" /> 11/2023 - 2/2024
                   </div>
                   <div className="flex items-center gap-3">
-                    <CiMapPin /> Buenos Aires, Argentina
+                    <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
                   </div>
                 </div>
               </div>
@@ -193,7 +193,7 @@ const Journey = () => {
               </div>
             </div>
 
-            <div className="data mb-12 md:mb-0">
+            <div className="data mb-24 md:mb-0">
               <div></div>
 
               <div>
@@ -208,16 +208,16 @@ const Journey = () => {
                 <span className="instituto">Andromeda - Remoto</span>
                 <div className="calendario  flex items-center flex-col">
                   <div className="flex items-center gap-3">
-                    <MdCalendarMonth /> 10/2023 - 11/2023
+                    <MdCalendarMonth className=" text-xl" /> 10/2023 - 11/2023
                   </div>
                   <div className="flex items-center gap-3">
-                    <CiMapPin /> Buenos Aires, Argentina
+                    <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="data mb-8 md:mb-0">
+            <div className="data mb-20 md:mb-0">
               <div className="flex flex-col items-center">
                 <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Arquitecto
@@ -225,10 +225,10 @@ const Journey = () => {
                 <span className="instituto">Rinaldi Construcciones</span>
                 <div className="calendario flex items-center flex-col">
                   <div className="flex items-center gap-3">
-                    <MdCalendarMonth /> 2021 -2023
+                    <MdCalendarMonth className=" text-xl" /> 2021 -2023
                   </div>
                   <div className="flex items-center gap-3">
-                    <CiMapPin /> Rosario, Argentina
+                    <CiMapPin className=" text-xl" /> Rosario, Argentina
                   </div>
                 </div>
               </div>
@@ -252,10 +252,10 @@ const Journey = () => {
                 <span className="instituto">On Construcciones</span>
                 <div className="calendario flex items-center flex-col">
                   <div className="flex items-center gap-3">
-                    <MdCalendarMonth /> 2016 - 2021
+                    <MdCalendarMonth className=" text-xl" /> 2016 - 2021
                   </div>
                   <div className="flex items-center gap-3">
-                    <CiMapPin /> Rosario, Argentina
+                    <CiMapPin className=" text-xl" /> Rosario, Argentina
                   </div>
                 </div>
               </div>
