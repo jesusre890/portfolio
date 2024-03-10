@@ -12,7 +12,7 @@ import NombreNavideño from "../../components/NombreNavideño/NombreNavideño";
 const Header = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row md:justify-center items-center md:gap-16">
+      <div className="flex flex-col md:flex-row md:justify-center items-center md:gap-16 mt-32">
         <div className=" py-10 text-center">
           <h1 className="text-4xl font-semibold pb-2 pt-2 text-gray-800 dark:text-blue-gray-100">
             Jesús Re
