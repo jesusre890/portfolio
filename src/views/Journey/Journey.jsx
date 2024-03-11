@@ -7,7 +7,7 @@ import { MdCalendarMonth } from "react-icons/md";
 import { CiMapPin } from "react-icons/ci";
 
 const Journey = () => {
-  const [active, setActive] = useState("estudios");
+  const [active, setActive] = useState("experiencia");
 
   return (
     <section
