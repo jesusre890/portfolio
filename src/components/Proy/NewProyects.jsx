@@ -79,7 +79,7 @@ const NewProyects = () => {
               </div>
             </div>
             <p className="footer">
-              <span className="by-name">Febrero 2024</span>
+              <span className="by-name">Marzo 2024</span>
             </p>
           </div>
         </SwiperSlide>

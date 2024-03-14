@@ -54,7 +54,7 @@ const Proy = () => {
           </div>
         </div>
         <p className="footer">
-          <span className="by-name">Agosto 2023</span>
+          <span className="by-name">Febrero 2024</span>
         </p>
       </div>
 
