@@ -60,10 +60,7 @@ const NewProyects = () => {
             <p className="card-title font-medium text-gray-700">
               Linux sample Portfolio
             </p>
-            {/*<p className="card-body font-normal text-gray-700">
-          Conversor de criptomonedas a partir del valor deseado. Opción de
-          registro.
-        </p>*/}
+
             <div className="flex justify-evenly items-center m-4 gap-4">
               <div>
                 <div className="flex justify-center gap-2 items-center">

@@ -1,4 +1,3 @@
-//import React from "react";
 import "./Proy.css";
 import { ImHtmlFive } from "react-icons/im";
 import { SiSass } from "react-icons/si";
@@ -28,10 +27,6 @@ const Proy = () => {
         <p className="card-title font-medium text-gray-700">
           Awaq ONG - Pasantía
         </p>
-        {/*<p className="card-body font-normal text-gray-700">
-          Conversor de criptomonedas a partir del valor deseado. Opción de
-          registro.
-        </p>*/}
         <div className="flex justify-evenly items-center m-4 gap-4">
           <div>
             <div className="flex justify-center gap-2 items-center">

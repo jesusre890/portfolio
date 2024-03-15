@@ -19,13 +19,13 @@ const Options = () => {
           </a>
         </label>
         <label>
-          <input checked="" class="radio-input" type="radio" name="engine" />
+          <input checked="" className="radio-input" type="radio" name="engine" />
           <a href="https://jesusre890.github.io/Fo/index.html" target="_blank">
-            <span class="radio-tile">
-              <span class="radio-icon2">
+            <span className="radio-tile">
+              <span className="radio-icon2">
                 <BsWindowFullscreen />
               </span>
-              <span class="radio-label">Deploy</span>
+              <span className="radio-label">Deploy</span>
             </span>
           </a>
         </label>
