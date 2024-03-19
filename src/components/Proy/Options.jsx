@@ -1,4 +1,3 @@
-import React from "react";
 import "./Options.css";
 import { AiFillGithub } from "react-icons/ai";
 import { BsWindowFullscreen } from "react-icons/bs";

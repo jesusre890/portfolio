@@ -44,7 +44,7 @@ const Frontend = () => {
           <div className="skills_data flex mb-3">
             <AiFillCheckCircle className="mt-1 mr-2" />
             <div>
-              <h3 className="font-medium text-gray-700">TanStack Query</h3>
+              <h3 className="font-medium text-gray-700">React Query</h3>
               <span className="flex flex-row items-center gap-2 text-gray-500 font-small text-xs">
                 
               </span>
