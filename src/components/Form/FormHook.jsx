@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import "./Form.css";
 import { BsSendCheck } from "react-icons/bs";
 import { useForm } from "react-hook-form";
@@ -38,9 +38,6 @@ const FormHook = () => {
       form.current,
       "yiAjC4F0tt9JZ_lr1"
     );
-
-    
-
   };
 
   const notify = () => {

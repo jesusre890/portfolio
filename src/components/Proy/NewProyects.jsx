@@ -69,7 +69,6 @@ const NewProyects = () => {
                   <ImCss3 className=" text-xl text-gray-600" />
                   <BiLogoTypescript className=" text-3xl text-gray-600" />
                 </div>
-                
               </div>
               <div>
                 <OptionLinux />
@@ -271,7 +270,7 @@ const NewProyects = () => {
           <div className="swiper-button-prev slider-arrow">
             <ion-icon name="arrow-back-outline"></ion-icon>
           </div>
-          <div className="swiper-button-next slider-arrow">
+          <div className="swiper-button-next slider-arrow ">
             <ion-icon name="arrow-forward-outline"></ion-icon>
           </div>
           <div className="swiper-pagination"></div>
