@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 
 import Header from "./views/Header/Header";
@@ -8,7 +8,7 @@ import Skills from "./views/Skills/Skills";
 import Contacto from "./views/Contacto/Contacto";
 import Footer from "./views/Footer/Footer";
 import ScrollUp from "./components/ScrollUp/ScrollUp";
-//import DarkLight2 from "./components/DarkLight2/DarkLight2";
+import DarkLight2 from "./components/DarkLight2/DarkLight2";
 //import {FiMoon} from 'react-icons/fi'
 //import { CiDark } from "react-icons/ci";
 //import DarkLight from "./components/DarkLight/DarkLight";
@@ -40,7 +40,7 @@ const App = () => {
   //}
 
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div className={darkMode ? "dark" : ""} >
       <main className="px-5 bg-slate-50 dark:bg-black">
         {/*<Navidad />*/}
         <div className="flex flex-row justify-between items-center pt-6">

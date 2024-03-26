@@ -30,10 +30,10 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#skills"
+          href="#journey"
           className="flex items-center hover:text-blue-500 transition-colors dark:text-blue-gray-100"
         >
-          Skills
+          Viaje
         </a>
       </Typography>
       <Typography
@@ -56,10 +56,10 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#journey"
+          href="#skills"
           className="flex items-center hover:text-blue-500 transition-colors dark:text-blue-gray-100"
         >
-          Viaje
+          Skills
         </a>
       </Typography>
       <Typography
