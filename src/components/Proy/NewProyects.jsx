@@ -28,6 +28,7 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import "./NewProyect.css";
 import OptionAwaq from "./OptionAwaq";
 import OptionLinux from "./OptionLinux";
+import OptionHuerta from "./OptionHuerta";
 
 const NewProyects = () => {
   return (
@@ -54,7 +55,36 @@ const NewProyects = () => {
         className="swiper_container"
       >
         <SwiperSlide>
-          {/*Awaq*/}
+          {/*Huerta colabo*/}
+          <div className="cardP mb-6 dark:bg-gray-100">
+            <div className="card-huerta"></div>
+            <p className="card-title font-medium text-gray-700 mt-1">
+              Tienda - Huerta del tomate
+            </p>
+            <p className="card-title font-light text-gray-700 text-base my-0">
+              Colaboración
+            </p>
+
+            <div className="flex justify-evenly items-center m-4 gap-4">
+              <div className="flex flex-col gap-1">
+                <div className="flex justify-center gap-2 items-center">
+                  <FaReact className=" text-2xl text-gray-600" />
+                  <SiTailwindcss className=" text-xl text-gray-600" />
+                  <ImCss3 className=" text-xl text-gray-600" />
+                  <BiLogoTypescript className=" text-3xl text-gray-600" />
+                </div>
+              </div>
+              <div>
+                <OptionHuerta />
+              </div>
+            </div>
+            <p className="footer">
+              <span className="by-name">Abril 2024</span>
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          {/*Linux*/}
           <div className="cardP mb-6 dark:bg-gray-100">
             <div className="card-samplePortfolio"></div>
             <p className="card-title font-medium text-gray-700">
