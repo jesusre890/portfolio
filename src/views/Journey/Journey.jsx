@@ -146,7 +146,7 @@ const Journey = () => {
               "viaje__contenido-active": active === "experiencia",
             })}
           >
-            <div className="data mb-20 md:mb-0">
+            <div className="data mb-32 md:mb-0">
               <div></div>
 
               <div>
@@ -191,7 +191,7 @@ const Journey = () => {
               </div>
             </div>
 
-            <div className="data mb-20 md:mb-0">
+            <div className="data mb-24 md:mb-0">
               <div></div>
 
               <div>
