@@ -12,7 +12,7 @@ import DarkLight2 from "./components/DarkLight2/DarkLight2";  //no descomentar
 //import {FiMoon} from 'react-icons/fi'
 //import { CiDark } from "react-icons/ci";
 //import DarkLight from "./components/DarkLight/DarkLight";
-//import Navidad from "./components/Navidad/Navidad";
+import Navidad from "./components/Navidad/Navidad";
 import Journey from "./views/Journey/Journey";
 import { NewNavbar } from "./views/Navbar/NewNavbar";
 
@@ -42,7 +42,7 @@ const App = () => {
   return (
     <div className={darkMode ? "dark" : ""} >
       <main className="px-5 bg-slate-50 dark:bg-black">
-        {/*<Navidad />*/}
+        <Navidad />
         <div className="flex flex-row justify-between items-center pt-6">
           {/*<Navbar />*/}
           <NewNavbar />
