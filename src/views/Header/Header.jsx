@@ -18,16 +18,17 @@ const Header = () => {
             Jesús Re
           </h1>
           <h3 className=" text-xl text-gray-700 dark:text-blue-gray-100">
-            FullStack Web Developer
+            Frontend Web Developer
           </h3>
           <br />
           <p className="text-xl pb-3 text-gray-600 dark:text-blue-gray-100">
             Bienvenido/a!
           </p>
           <p className="text-gray-600 max-w-sm mx-auto md:max-w-md lg:max-w-lg dark:text-blue-gray-100">
-            Graduado del bootcamp de Henry, descubrí la inmensidad del mundo de
-            la programación y su potencial para soluciones infinitas. Contáctame
-            por cualquier consulta.
+            Soy un desarrollador frontend apasionado por crear experiencias web
+            interactivas. A lo largo de mi trayectoria, he adquirido sólidas
+            habilidades en React,
+            TypeScript, Zustand, Redux, entre otras. 
           </p>
           <div className="flex justify-center items-center pt-8">
             {/*<Social />*/}

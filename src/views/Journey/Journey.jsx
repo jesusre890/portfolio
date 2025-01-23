@@ -178,7 +178,7 @@ const Journey = () => {
                 <span className="instituto">Hilda - Remoto</span>
                 <div className="calendario flex items-center flex-col">
                   <div className="flex items-center gap-3">
-                    <MdCalendarMonth className=" text-xl" /> 2/2024 - Actualidad
+                    <MdCalendarMonth className=" text-xl" /> 2/2024 - 5/2024
                   </div>
                   <div className="flex items-center gap-3">
                     <CiMapPin className=" text-xl" /> Buenos Aires, Argentina

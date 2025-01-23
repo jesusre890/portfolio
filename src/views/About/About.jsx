@@ -22,14 +22,13 @@ const About = () => {
         </div>
         <div>
           <p className="text-gray-600 max-w-sm mx-auto mt-3 md:max-w-md lg:max-w-lg md:mb-12 md:mt-0 dark:text-blue-gray-100">
-            Fullstack developer. Empecé con la programación a principios del
-            2022 de manera autodidacta. Luego decidí formarme con cursos
-            orientados solamente al front.
+            Dedicado a la programación desde 2022, he enfocado mi tiempo a
+            desarrollar habilidades sólidas en el desarrollo web fullstack. Mi
+            trayectoria incluye un aprendizaje autodidacta y una formación
+            intensiva en tecnologías frontend.
           </p>
           <p className="text-gray-600 max-w-sm mx-auto mt-3 mb-8 md:mb-0 md:max-w-md lg:max-w-lg md:mt-0 dark:text-blue-gray-100">
-            En 2023 tomé la decisión de hacer un cambio grande y me embarqué en
-            el bootcamp de Henry. Adquirí herramientas fundamentales que me han
-            preparado para dar mis primeros pasos en el mundo laboral.
+            Participé en multiples proyectos personales y colaborativos, donde me enfoque principalmente en en desarrollo frontend, y actualmente me dedico a esa orientación al 100%.
           </p>
 
           <a download="" href={cv}>
