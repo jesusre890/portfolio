@@ -9,13 +9,13 @@ import gorro from "../../assets/gorroNavideño (1).png";
 const Social2 = () => {
   return (
     <>
-      <div>
+      {/*<div>
         <img
           src={gorro}
           alt="gorro navideño"
           className="gorro w-14 opacity-90"
         />
-      </div>
+      </div>*/}
       <div className="card dark:bg-slate-300">
         <a
           className="socialContainer containerOne"
