@@ -146,7 +146,7 @@ const Journey = () => {
               "viaje__contenido-active": active === "experiencia",
             })}
           >
-            <div className="data mb-20 md:mb-0">
+            <div className="data mb-32 md:mb-0">
               <div className="flex flex-col items-center">
                 <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Desarrollador Frontend React
@@ -236,7 +236,7 @@ const Journey = () => {
               </div>
             </div>
 
-            <div className="data mb-24 md:mb-0">
+            <div className="data mb-28 md:mb-0">
               <div className="flex flex-col items-center">
                 <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Desarrollador Frontend React
