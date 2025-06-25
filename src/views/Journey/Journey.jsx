@@ -146,6 +146,27 @@ const Journey = () => {
               "viaje__contenido-active": active === "experiencia",
             })}
           >
+            <div className="data mb-20 md:mb-0">
+              <div className="flex flex-col items-center">
+                <h3 className="titulo font-medium dark:text-blue-gray-100">
+                  Desarrollador Frontend React
+                </h3>
+                <span className="instituto">Agora Partnerships - Remoto</span>
+                <div className="calendario  flex items-center flex-col">
+                  <div className="flex items-center gap-3">
+                    <MdCalendarMonth className=" text-xl" /> 4/2024 - Actualidad
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="circulo"></span>
+                <span className="linea"></span>
+              </div>
+            </div>
+
             <div className="data mb-32 md:mb-0">
               <div></div>
 
@@ -158,10 +179,10 @@ const Journey = () => {
                 <h3 className="titulo font-medium dark:text-blue-gray-100">
                   Desarrollador Frontend React
                 </h3>
-                <span className="instituto">Agora Partnerships - Remoto</span>
+                <span className="instituto">Pelícano lab - Remoto</span>
                 <div className="calendario  flex items-center flex-col">
                   <div className="flex items-center gap-3">
-                    <MdCalendarMonth className=" text-xl" /> 4/2024 - Actualidad
+                    <MdCalendarMonth className=" text-xl" /> 6/2024 - Actualidad
                   </div>
                   <div className="flex items-center gap-3">
                     <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
@@ -218,7 +239,7 @@ const Journey = () => {
             <div className="data mb-24 md:mb-0">
               <div className="flex flex-col items-center">
                 <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Desarrollador Frontend
+                  Desarrollador Frontend React
                 </h3>
                 <span className="instituto">Awaq ONG - Remoto</span>
                 <div className="calendario flex items-center flex-col">
