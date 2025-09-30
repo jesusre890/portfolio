@@ -25,7 +25,7 @@ const Info = () => {
         <BiLogoVisualStudio className="icono" />
         <h3 className="font-medium text-gray-700 text-lg">Proyectos</h3>
         <span className="flex flex-row items-center gap-2 text-gray-500 font-medium text-sm">
-          24
+          23
           <BsCheck2Circle />
         </span>
       </div>
