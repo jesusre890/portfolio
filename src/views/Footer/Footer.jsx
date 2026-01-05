@@ -73,7 +73,7 @@ const Footer = () => {
         </ul>
         <h1 className="flex items-center gap-2 font-medium text-gray-700 text-sm my-5 dark:text-blue-gray-100">
           <BiCopyright />
-          <div className="">Jesús Re 2025</div>
+          <div className="">Jesús Re 2026</div>
         </h1>
       </div>
     </footer>

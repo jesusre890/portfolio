@@ -149,7 +149,7 @@ const Journey = () => {
             <div className="data mb-32 md:mb-0">
               <div className="flex flex-col items-center">
                 <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Desarrollador Frontend React
+                  Desarrollador Frontend React SSR
                 </h3>
                 <span className="instituto">Agora Partnerships - Remoto</span>
                 <div className="calendario  flex items-center flex-col">
@@ -177,12 +177,12 @@ const Journey = () => {
 
               <div className="flex flex-col items-center">
                 <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Desarrollador Frontend React
+                  Desarrollador Frontend React SSR
                 </h3>
                 <span className="instituto">Pelícano lab - Remoto</span>
                 <div className="calendario  flex items-center flex-col">
                   <div className="flex items-center gap-3">
-                    <MdCalendarMonth className=" text-xl" /> 6/2024 - Actualidad
+                    <MdCalendarMonth className=" text-xl" /> 6/2024 - 8/2025
                   </div>
                   <div className="flex items-center gap-3">
                     <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
