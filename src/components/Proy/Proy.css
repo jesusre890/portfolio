@@ -123,7 +123,28 @@
   background-size:cover;
   border-radius: 15px;
   filter: brightness(95%)
-  /*box-shadow: inset 1px 1px 4px #c3c3c3, inset -1px -1px 4px #cfcfcf;*/
+}
+
+.card-academy {
+  min-height: 170px;
+  background-color: #f3f2f2;
+  background-image: url(../../assets/academy.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size:cover;
+  border-radius: 15px;
+  filter: brightness(95%)
+}
+
+.card-chatbotSustentia {
+  min-height: 180px;
+  background-color: #f3f2f2;
+  background-image: url(../../assets/chatbotSustentia.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size:cover;
+  border-radius: 15px;
+  filter: brightness(95%)
 }
 
 .card-body {
