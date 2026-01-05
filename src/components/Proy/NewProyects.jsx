@@ -64,16 +64,17 @@ const NewProyects = () => {
           {/*academy*/}
           <div className="cardP mb-6 dark:bg-gray-100">
             <div className="card-chatbotSustentia"></div>
-            <p className="card-title font-medium text-gray-700 mt-1">Chatbot Sustentia</p>
+            <p className="card-title font-medium text-gray-700 mt-1">
+              Chatbot Sustentia
+            </p>
             <p className="card-title font-light text-gray-700 text-base my-0">
               Desarrollador Frontend SSR
             </p>
             <div className="flex justify-evenly items-center m-4 gap-4">
               <div className="flex flex-col gap-1">
                 <div className="flex justify-center gap-2 items-center">
-                  <FaReact className=" text-2xl text-gray-600" />
+                  <span>Next</span>
                   <SiTailwindcss className=" text-xl text-gray-600" />
-                  <TbBrandRedux className=" text-2xl text-gray-600" />
                   <BiLogoTypescript className=" text-3xl text-gray-600" />
                 </div>
               </div>
@@ -90,14 +91,16 @@ const NewProyects = () => {
           {/*academy*/}
           <div className="cardP mb-6 dark:bg-gray-100">
             <div className="card-academy"></div>
-            <p className="card-title font-medium text-gray-700 mt-1">Agora Academy</p>
+            <p className="card-title font-medium text-gray-700 mt-1">
+              Agora Academy
+            </p>
             <p className="card-title font-light text-gray-700 text-base my-0">
               Desarrollador Frontend SSR
             </p>
             <div className="flex justify-evenly items-center m-4 gap-4">
               <div className="flex flex-col gap-1">
                 <div className="flex justify-center gap-2 items-center">
-                  <FaReact className=" text-2xl text-gray-600" />
+                  <span>Next</span>
                   <SiTailwindcss className=" text-xl text-gray-600" />
                   <TbBrandRedux className=" text-2xl text-gray-600" />
                   <BiLogoTypescript className=" text-3xl text-gray-600" />
