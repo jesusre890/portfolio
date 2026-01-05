@@ -26,18 +26,21 @@ const FormHook = () => {
 
   const form = useRef();
   
-  const onSubmit = (e) => {
-    
-    console.log(e);
+  const onSubmit = async () => {
+    try {
+      await emailjs.sendForm(
+        "service_k6cflbk",
+        "template_51ayhni",
+        form.current,
+        "yiAjC4F0tt9JZ_lr1"
+      );
 
-    notify();
-    
-    emailjs.sendForm(
-      "service_p8qawbc",
-      "template_51ayhni",
-      form.current,
-      "yiAjC4F0tt9JZ_lr1"
-    );
+      notify();
+      reset();
+    } catch (err) {
+      toast.error("Error al enviar el mensaje");
+      console.error(err);
+    }
   };
 
   const notify = () => {
