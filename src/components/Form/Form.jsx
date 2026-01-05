@@ -38,7 +38,7 @@ const Form = () => {
     //}
 
     emailjs.sendForm(
-      "service_p8qawbc",
+      "service_k6cflbk",
       "template_51ayhni",
       form.current,
       "yiAjC4F0tt9JZ_lr1"
