@@ -18,16 +18,18 @@ const Header = () => {
             Jesús Re
           </h1>
           <h3 className=" text-xl text-gray-700 dark:text-blue-gray-100">
-            Frontend Web Developer
+            Semi Senior Frontend Developer
           </h3>
           <br />
           <p className="text-xl pb-3 text-gray-600 dark:text-blue-gray-100">
-            Bienvenido/a!
+            Enfocado en construir productos reales, mantenibles y orientados al
+            negocio.
           </p>
           <p className="text-gray-600 max-w-sm mx-auto md:max-w-md lg:max-w-lg dark:text-blue-gray-100">
-            Soy un desarrollador frontend enfocado en crear experiencias web
-            interactivas. A lo largo de mi trayectoria, he adquirido sólidas
-            habilidades en React, TypeScript, TanStack, Zustand, Redux, entre otras.
+            Trabajo con React, TypeScript y Next.js desarrollando aplicaciones
+            web en producción. Participo en refactorizaciones, migraciones
+            tecnológicas y mejoras de arquitectura frontend, con foco en
+            calidad, performance y experiencia de usuario.
           </p>
           <div className="flex justify-center items-center pt-8">
             {/*<Social />*/}
