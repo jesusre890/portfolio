@@ -47,7 +47,7 @@ const Social2 = () => {
           </svg>
         </a>
 
-        <a
+        {/*<a
           className="socialContainer containerTwo"
           href="https://www.youtube.com/channel/UCO4Hm7vu91DxorRhMNIgoDA"
           target="_blank"
@@ -55,7 +55,7 @@ const Social2 = () => {
           <svg viewBox="0 0 16 16" className="socialSvg twitterSvg">
             <BsYoutube />
           </svg>{" "}
-        </a>
+        </a>*/}
       </div>
       {/*<img
         src={arbol}
