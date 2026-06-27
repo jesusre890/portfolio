@@ -53,7 +53,7 @@ const TimelineItem = ({ item, side, isLast }) => {
   );
 
   return (
-    <div className={classNames("data", { "mb-12 md:mb-0": !isLast })}>
+    <div className={classNames("data", { "mb-36 md:mb-0": !isLast })}>
       {side === "left" ? (
         <>
           {content}
