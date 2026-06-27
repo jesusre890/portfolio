@@ -1,13 +1,6 @@
 import React from "react";
-import foto from "../../assets/foto.png";
-import { BsLinkedin } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
-import { BiLogoGmail } from "react-icons/bi";
-import style from "./Header.module.css";
-import Social from "../../components/Social/Social";
 import "./Header.css";
 import Social2 from "../../components/Social2/Social2";
-import NombreNavideño from "../../components/NombreNavideño/NombreNavideño";
 
 const Header = () => {
   return (
@@ -32,7 +25,6 @@ const Header = () => {
             calidad, performance y experiencia de usuario.
           </p>
           <div className="flex justify-center items-center pt-8">
-            {/*<Social />*/}
             <Social2 />
           </div>
         </div>
