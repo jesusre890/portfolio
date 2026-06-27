@@ -1,10 +1,74 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 import "./Journey.css";
-import { MdWorkOutline } from "react-icons/md";
+import { MdWorkOutline, MdCalendarMonth } from "react-icons/md";
 import { GiGraduateCap } from "react-icons/gi";
-import { MdCalendarMonth } from "react-icons/md";
 import { CiMapPin } from "react-icons/ci";
+
+const estudiosData = [
+  { title: "Cloud Computing (AWS)", institute: "Coderhouse", date: "2024" },
+  { title: "Desarrollador FullStack", institute: "Henry Bootcamp", date: "3/2023 - 8/2023" },
+  { title: "Desarrollador Frontend React", institute: "Coderhouse", date: "2022 - 2023" },
+  { title: "Desarrollador Web Frontend", institute: "Crehana", date: "2022" },
+  { title: "Arquitecto", institute: "Universidad Nacional de Rosario", date: "2009 - 2018" },
+];
+
+const experienciaData = [
+  { title: "Desarrollador Frontend SSR", institute: "deRentas - Remoto", date: "6/2026 - Actualidad", location: "Buenos Aires, Argentina" },
+  { title: "Desarrollador Frontend React SSR", institute: "Agora Partnerships - Remoto", date: "4/2024 - 6/2026", location: "Buenos Aires, Argentina" },
+  { title: "Desarrollador Frontend React SSR", institute: "Pelícano lab - Remoto", date: "6/2024 - 8/2025", location: "Buenos Aires, Argentina" },
+  { title: "Desarrollador Frontend", institute: "Hilda - Remoto", date: "2/2024 - 5/2024", location: "Buenos Aires, Argentina" },
+  { title: "Desarrollador FullStack", institute: "Trayector - Remoto", date: "1/2024 - 3/2024", location: "Buenos Aires, Argentina" },
+  { title: "Desarrollador Frontend React", institute: "Awaq ONG - Remoto", date: "11/2023 - 2/2024", location: "Buenos Aires, Argentina" },
+  { title: "Desarrollador FullStack", institute: "Andromeda - Remoto", date: "10/2023 - 11/2023", location: "Buenos Aires, Argentina" },
+  { title: "Arquitecto", institute: "Rinaldi Construcciones", date: "2021 - 2023", location: "Rosario, Argentina" },
+  { title: "Arquitecto", institute: "On Construcciones", date: "2016 - 2021", location: "Rosario, Argentina" },
+];
+
+const TimelineItem = ({ item, side, isLast }) => {
+  const content = (
+    <div className="flex flex-col items-center">
+      <h3 className="titulo font-medium dark:text-blue-gray-100">{item.title}</h3>
+      <span className="instituto">{item.institute}</span>
+      <div className={classNames("calendario flex items-center", { "flex-col": item.location })}>
+        <div className="flex items-center gap-3">
+          <MdCalendarMonth className="text-xl" aria-hidden="true" />
+          {item.date}
+        </div>
+        {item.location && (
+          <div className="flex items-center gap-3">
+            <CiMapPin className="text-xl" aria-hidden="true" />
+            {item.location}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+
+  const timeline = (
+    <div>
+      <span className="circulo"></span>
+      <span className="linea"></span>
+    </div>
+  );
+
+  return (
+    <div className={classNames("data", { "mb-12 md:mb-0": !isLast })}>
+      {side === "left" ? (
+        <>
+          {content}
+          {timeline}
+        </>
+      ) : (
+        <>
+          <div></div>
+          {timeline}
+          {content}
+        </>
+      )}
+    </div>
+  );
+};
 
 const Journey = () => {
   const [active, setActive] = useState("experiencia");
@@ -20,28 +84,24 @@ const Journey = () => {
 
       <div className="container">
         <div className="tabs flex gap-8 h-20 mb-5">
-          <div
-            className={`viaje__botones ${
-              active === "estudios" ? "viaje__active" : ""
-            } gap-2 flex items-center font-medium dark:text-blue-gray-100`}
+          <button
+            type="button"
+            className={`viaje__botones ${active === "estudios" ? "viaje__active" : ""} gap-2 flex items-center font-medium dark:text-blue-gray-100`}
             onClick={() => setActive("estudios")}
+            aria-pressed={active === "estudios"}
           >
-            <GiGraduateCap className="bg-slate-50 dark:bg-slate-950" />
-            <span className="spanB bg-slate-50 dark:bg-slate-950">
-              Estudios
-            </span>
-          </div>
-          <div
-            className={`viaje__botones ${
-              active === "experiencia" ? "viaje__active" : ""
-            } gap-2 flex items-center font-medium dark:text-blue-gray-100`}
+            <GiGraduateCap className="bg-slate-50 dark:bg-slate-950" aria-hidden="true" />
+            <span className="spanB bg-slate-50 dark:bg-slate-950">Estudios</span>
+          </button>
+          <button
+            type="button"
+            className={`viaje__botones ${active === "experiencia" ? "viaje__active" : ""} gap-2 flex items-center font-medium dark:text-blue-gray-100`}
             onClick={() => setActive("experiencia")}
+            aria-pressed={active === "experiencia"}
           >
-            <MdWorkOutline className="bg-slate-50 dark:bg-slate-950" />
-            <span className="spanB bg-slate-50 dark:bg-slate-950">
-              Experiencia
-            </span>
-          </div>
+            <MdWorkOutline className="bg-slate-50 dark:bg-slate-950" aria-hidden="true" />
+            <span className="spanB bg-slate-50 dark:bg-slate-950">Experiencia</span>
+          </button>
         </div>
 
         <div className="secciones">
@@ -50,95 +110,14 @@ const Journey = () => {
               "viaje__contenido-active": active === "estudios",
             })}
           >
-            <div className="data mb-12 md:mb-0">
-              <div></div>
-
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-
-              <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Cloud Computing (AWS)
-                </h3>
-                <span className="instituto">Coderhouse</span>
-                <div className="calendario  flex items-center">
-                  <MdCalendarMonth /> 2024
-                </div>
-              </div>
-            </div>
-
-            <div className="data mb-8 md:mb-0">
-              <div className="contenidoData flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Desarrollador FullStack
-                </h3>
-                <span className="instituto">Henry Bootcamp</span>
-                <div className="calendario flex items-center">
-                  <MdCalendarMonth /> 3/2023 - 8/2023
-                </div>
-              </div>
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-            </div>
-
-            <div className="data mb-12 md:mb-0">
-              <div></div>
-
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-
-              <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Desarrollador Frontend React
-                </h3>
-                <span className="instituto">Coderhouse</span>
-                <div className="calendario  flex items-center">
-                  <MdCalendarMonth /> 2022 - 2023
-                </div>
-              </div>
-            </div>
-
-            <div className="data mb-8 md:mb-0">
-              <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Desarrollador Web Frontend
-                </h3>
-                <span className="instituto">Crehana</span>
-                <div className="calendario flex items-center">
-                  <MdCalendarMonth /> 2022
-                </div>
-              </div>
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-            </div>
-
-            <div className="data">
-              <div></div>
-
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-              <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Arquitecto
-                </h3>
-                <span className="instituto">
-                  Universidad Nacional de Rosario
-                </span>
-                <div className="calendario flex items-center">
-                  <MdCalendarMonth /> 2009 - 2018
-                </div>
-              </div>
-            </div>
+            {estudiosData.map((item, i) => (
+              <TimelineItem
+                key={i}
+                item={item}
+                side={i % 2 === 0 ? "right" : "left"}
+                isLast={i === estudiosData.length - 1}
+              />
+            ))}
           </div>
 
           <div
@@ -146,184 +125,14 @@ const Journey = () => {
               "viaje__contenido-active": active === "experiencia",
             })}
           >
-            <div className="data mb-32 md:mb-0">
-              <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Desarrollador Frontend React SSR
-                </h3>
-                <span className="instituto">Agora Partnerships - Remoto</span>
-                <div className="calendario  flex items-center flex-col">
-                  <div className="flex items-center gap-3">
-                    <MdCalendarMonth className=" text-xl" /> 4/2024 - Actualidad
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
-                  </div>
-                </div>
-              </div>
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-            </div>
-
-            <div className="data mb-32 md:mb-0">
-              <div></div>
-
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-
-              <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Desarrollador Frontend React SSR
-                </h3>
-                <span className="instituto">Pelícano lab - Remoto</span>
-                <div className="calendario  flex items-center flex-col">
-                  <div className="flex items-center gap-3">
-                    <MdCalendarMonth className=" text-xl" /> 6/2024 - 8/2025
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="data mb-20 md:mb-0">
-              <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Desarrollador Frontend
-                </h3>
-                <span className="instituto">Hilda - Remoto</span>
-                <div className="calendario flex items-center flex-col">
-                  <div className="flex items-center gap-3">
-                    <MdCalendarMonth className=" text-xl" /> 2/2024 - 5/2024
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
-                  </div>
-                </div>
-              </div>
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-            </div>
-
-            <div className="data mb-24 md:mb-0">
-              <div></div>
-
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-
-              <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Desarrollador FullStack
-                </h3>
-                <span className="instituto">Trayector - Remoto</span>
-                <div className="calendario  flex items-center flex-col">
-                  <div className="flex items-center gap-3">
-                    <MdCalendarMonth className=" text-xl" /> 1/2024 - 3/2024
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="data mb-28 md:mb-0">
-              <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Desarrollador Frontend React
-                </h3>
-                <span className="instituto">Awaq ONG - Remoto</span>
-                <div className="calendario flex items-center flex-col">
-                  <div className="flex items-center gap-3">
-                    <MdCalendarMonth className=" text-xl" /> 11/2023 - 2/2024
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
-                  </div>
-                </div>
-              </div>
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-            </div>
-
-            <div className="data mb-24 md:mb-0">
-              <div></div>
-
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-
-              <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Desarrollador FullStack
-                </h3>
-                <span className="instituto">Andromeda - Remoto</span>
-                <div className="calendario  flex items-center flex-col">
-                  <div className="flex items-center gap-3">
-                    <MdCalendarMonth className=" text-xl" /> 10/2023 - 11/2023
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <CiMapPin className=" text-xl" /> Buenos Aires, Argentina
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="data mb-20 md:mb-0">
-              <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Arquitecto
-                </h3>
-                <span className="instituto">Rinaldi Construcciones</span>
-                <div className="calendario flex items-center flex-col">
-                  <div className="flex items-center gap-3">
-                    <MdCalendarMonth className=" text-xl" /> 2021 -2023
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <CiMapPin className=" text-xl" /> Rosario, Argentina
-                  </div>
-                </div>
-              </div>
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-            </div>
-
-            <div className="data">
-              <div></div>
-
-              <div>
-                <span className="circulo"></span>
-                <span className="linea"></span>
-              </div>
-              <div className="flex flex-col items-center">
-                <h3 className="titulo font-medium dark:text-blue-gray-100">
-                  Arquitecto
-                </h3>
-                <span className="instituto">On Construcciones</span>
-                <div className="calendario flex items-center flex-col">
-                  <div className="flex items-center gap-3">
-                    <MdCalendarMonth className=" text-xl" /> 2016 - 2021
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <CiMapPin className=" text-xl" /> Rosario, Argentina
-                  </div>
-                </div>
-              </div>
-            </div>
+            {experienciaData.map((item, i) => (
+              <TimelineItem
+                key={i}
+                item={item}
+                side={i % 2 === 0 ? "left" : "right"}
+                isLast={i === experienciaData.length - 1}
+              />
+            ))}
           </div>
         </div>
       </div>
