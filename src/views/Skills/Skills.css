@@ -1,30 +1,16 @@
 .cont {
-    width: fit-content;
+  width: fit-content;
   border-radius: 20px;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
 }
 
-.sk{
+.sk {
   view-timeline-name: --image;
   view-timeline-axis: block;
-
   animation-timeline: --image;
   animation-name: show;
-
   animation-range: entry 25% cover 40%;
   animation-fill-mode: both;
-}
-
-@keyframes show {
-  from {
-    opacity: 0;
-    scale: 25%
-  }
-
-  to {
-    opacity: 1;
-    scale: 100%;
-  }
 }
