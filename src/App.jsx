@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import "./components/DarkLight2/DarkLight2.css";
 
 import Header from "./views/Header/Header";
 import About from "./views/About/About";
